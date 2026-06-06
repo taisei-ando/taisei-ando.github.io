@@ -151,6 +151,9 @@ img {
 //
 
 .wrapper-masthead {
+  position: sticky;
+  top: 0;
+  z-index: 10;
   margin-bottom: 28px;
   background: #f8f8f8;
 }
@@ -216,7 +219,7 @@ nav {
   margin-top: 0;
   font-family: $helveticaNeue;
   font-size: 16px;
-  text-align: left;
+  text-align: right;
 
   @include mobile {
     display: block;
