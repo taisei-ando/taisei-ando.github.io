@@ -344,6 +344,16 @@ nav {
   h2 {
     margin-bottom: 18px;
   }
+
+  > .plain-list {
+    padding-left: 24px;
+    list-style: disc;
+
+    li {
+      margin: 8px 0;
+      line-height: 1.35;
+    }
+  }
 }
 
 .publication {
