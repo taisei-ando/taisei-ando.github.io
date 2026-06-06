@@ -3,28 +3,34 @@ layout: default
 ---
 
 <div class="profile-page" id="about">
-  <aside class="profile-sidebar">
+  <header class="profile-header">
+    <div class="profile-summary">
+      <h1>{{ site.name }}</h1>
+      <p class="profile-title">{{ site.description }}</p>
+      <p class="profile-affiliation">The University of Tokyo</p>
+      <p class="profile-email"><a href="mailto:ando@robot.t.u-tokyo.ac.jp">ando@robot.t.u-tokyo.ac.jp</a></p>
+
+      <p class="profile-links">
+        <a href="https://scholar.google.com/citations?user=F40bkuIAAAAJ&amp;hl=en">Google Scholar</a> /
+        <a href="https://www.linkedin.com/in/taisei-ando/">LinkedIn</a>
+      </p>
+    </div>
+
     <img class="profile-photo" src="{{ site.avatar }}" alt="{{ site.name }}" />
-
-    <h1>{{ site.name }}</h1>
-    <p class="profile-title">{{ site.description }}</p>
-    <p class="profile-affiliation">The University of Tokyo</p>
-    <p><a href="mailto:ando@robot.t.u-tokyo.ac.jp">ando@robot.t.u-tokyo.ac.jp</a></p>
-
-    <p class="profile-links">
-      <a href="https://scholar.google.com/citations?user=F40bkuIAAAAJ&amp;hl=en">Google Scholar</a> /
-      <a href="https://www.linkedin.com/in/taisei-ando/">LinkedIn</a>
-    </p>
-  </aside>
+  </header>
 
   <main class="profile-content">
+    <p class="research-interests">
+      <strong>Research interests</strong> : Robotics, SLAM, computer vision, field robotics
+    </p>
+
     <section>
       <h2>Biography</h2>
       <ul class="plain-list">
-        <li>2026年4月 - 現在 東京大学, 大学院新領域創成科学研究科, 人間環境学専攻</li>
-        <li>2024年4月 - 2026年3月 東京大学, 大学院新領域創成科学研究科, 人間環境学専攻</li>
-        <li>2020年4月 - 2024年3月 東京大学, 工学部, 精密工学科</li>
-        <li>2026年1月 - 現在 国立研究開発法人産業技術総合研究所, リサーチアシスタント</li>
+        <li>April 2026 - Present, Ph.D. student, Department of Human and Engineered Environmental Studies, Graduate School of Frontier Sciences, The University of Tokyo</li>
+        <li>January 2026 - Present, Research Assistant, National Institute of Advanced Industrial Science and Technology (AIST)</li>
+        <li>April 2024 - March 2026, Master's student, Department of Human and Engineered Environmental Studies, Graduate School of Frontier Sciences, The University of Tokyo</li>
+        <li>April 2020 - March 2024, B.E., Department of Precision Engineering, Faculty of Engineering, The University of Tokyo</li>
       </ul>
     </section>
 
