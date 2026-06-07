@@ -173,16 +173,12 @@ img {
 
 .masthead-name {
   flex: 0 0 auto;
-  color: $darkGray;
+  color: $black;
   font-family: $sourceSerif;
   font-size: 22px;
   font-weight: 600;
   line-height: 1.2;
-
-  &:hover,
-  &:active {
-    color: $darkGray;
-  }
+  white-space: nowrap;
 
   @include mobile {
     display: block;
@@ -374,12 +370,16 @@ nav {
 
   a {
     display: block;
+    padding: 4px 0 4px 12px;
+    border-left: 3px solid transparent;
     margin-bottom: 12px;
     color: $gray;
+    font-weight: 600;
     line-height: 1.25;
 
     &:hover,
     &:focus {
+      border-left-color: $blue;
       color: $blue;
     }
   }
@@ -404,14 +404,14 @@ nav {
 
 .cv-card {
   scroll-margin-top: 84px;
-  margin-bottom: 22px;
-  padding: 22px 24px;
+  margin-bottom: 24px;
+  padding: 26px 28px;
   border: 1px solid $lightGray;
   border-radius: 8px;
   background: $white;
 
   h2 {
-    margin-bottom: 18px;
+    margin-bottom: 24px;
   }
 
   > .plain-list {
@@ -422,6 +422,93 @@ nav {
       margin: 8px 0;
       line-height: 1.35;
     }
+  }
+}
+
+.cv-basics {
+  margin: 0;
+
+  div {
+    display: grid;
+    grid-template-columns: 150px minmax(0, 1fr);
+    gap: 22px;
+    padding: 10px 0;
+    border-top: 1px solid $lightGray;
+
+    &:first-child {
+      border-top: none;
+      padding-top: 0;
+    }
+
+    @include mobile {
+      grid-template-columns: 1fr;
+      gap: 4px;
+    }
+  }
+
+  dt {
+    color: $gray;
+    font-weight: 600;
+  }
+
+  dd {
+    margin: 0;
+  }
+}
+
+.cv-item {
+  display: grid;
+  grid-template-columns: 170px minmax(0, 1fr);
+  gap: 24px;
+  padding: 18px 0;
+  border-top: 1px solid $lightGray;
+
+  &:first-of-type {
+    border-top: none;
+    padding-top: 0;
+  }
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+
+  @include mobile {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}
+
+.cv-period {
+  color: $black;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.cv-detail {
+  min-width: 0;
+
+  h3 {
+    margin: 0 0 6px;
+    color: $darkerGray;
+    font-family: $helvetica;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+
+  p {
+    margin: 4px 0;
+    line-height: 1.35;
+  }
+
+  ul {
+    margin: 6px 0 0;
+    padding-left: 22px;
+  }
+
+  li {
+    margin: 4px 0;
+    line-height: 1.3;
   }
 }
 
