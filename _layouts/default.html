@@ -22,6 +22,10 @@
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
+          {% unless page.url == "/" or page.url == "/about/" %}
+            <a class="masthead-name" href="{{ site.baseurl }}/">{{ site.name }}</a>
+          {% endunless %}
+
           <nav>
             <a href="{{ site.baseurl }}/">About</a>
             <a href="{{ site.baseurl }}/publications/">Publications</a>
