@@ -591,8 +591,24 @@ nav {
   margin-top: 18px;
 }
 
+.publication-card {
+  margin-bottom: 24px;
+  padding: 26px 28px;
+  border: 1px solid $lightGray;
+  border-radius: 8px;
+  background: $white;
+
+  h2 {
+    margin-bottom: 24px;
+  }
+}
+
 .publication-entry {
   margin: 0 0 28px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 
   h3 {
     margin: 0 0 8px;
@@ -612,6 +628,10 @@ nav {
 
 .publication-venue {
   color: $gray;
+}
+
+.publication-award {
+  color: #b3261e;
 }
 
 .biography-group {
