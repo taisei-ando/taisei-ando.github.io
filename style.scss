@@ -408,6 +408,7 @@ nav {
   min-width: 0;
 }
 
+.about-card,
 .cv-card,
 .publication-card {
   scroll-margin-top: 84px;
@@ -430,6 +431,14 @@ nav {
       line-height: 1.35;
     }
   }
+}
+
+.about-card > p:first-child {
+  margin-top: 0;
+}
+
+.about-card > p:last-child {
+  margin-bottom: 0;
 }
 
 .cv-basics {
@@ -628,8 +637,9 @@ nav {
       font-size: 18px;
     }
 
-    p {
-      font-size: 16px;
+    .publication-authors,
+    .publication-venue {
+      font-size: 15px;
     }
   }
 }
