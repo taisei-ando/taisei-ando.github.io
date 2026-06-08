@@ -278,11 +278,13 @@ nav {
   margin-bottom: 18px;
 
   @include mobile {
-    display: block;
+    gap: 18px;
   }
 }
 
 .profile-summary {
+  min-width: 0;
+
   h1 {
     font-family: $sourceSerif;
     margin: 0 0 22px;
@@ -304,7 +306,11 @@ nav {
   border-radius: 14px;
 
   @include mobile {
-    margin-top: 24px;
+    flex: 0 0 auto;
+    width: 104px;
+    height: 138px;
+    margin-top: 0;
+    border-radius: 10px;
   }
 }
 
@@ -593,10 +599,14 @@ nav {
 }
 
 .publication-entry {
-  margin: 0 0 28px;
+  margin: 0 0 22px;
+  padding: 0 0 22px;
+  border-bottom: 1px solid $lightGray;
 
   &:last-child {
     margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
   }
 
   h3 {
@@ -612,6 +622,18 @@ nav {
   }
 }
 
+.publication-card--domestic {
+  .publication-entry {
+    h3 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
 .publication-authors {
   color: $gray;
 }
@@ -619,6 +641,10 @@ nav {
 .publication-venue {
   color: $gray;
   font-style: italic;
+}
+
+.publication-links {
+  font-size: 16px;
 }
 
 .biography-group {
