@@ -287,7 +287,7 @@ nav {
 
   h1 {
     font-family: $sourceSerif;
-    margin: 0 0 22px;
+    margin: 0 0 8px;
     font-size: 44px;
     font-weight: 400;
     line-height: 1.1;
@@ -296,6 +296,13 @@ nav {
   p {
     margin: 0;
   }
+}
+
+.profile-name-ja {
+  margin-bottom: 20px !important;
+  color: $darkerGray;
+  font-size: 24px;
+  line-height: 1.2;
 }
 
 .profile-photo {
@@ -607,6 +614,30 @@ nav {
   margin-top: 18px;
 }
 
+.publication-year-group {
+  margin-top: 28px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.publication-year {
+  margin: 0 0 12px;
+  font-family: $helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.publication-year-list {
+  margin-left: 24px;
+
+  @include mobile {
+    margin-left: 16px;
+  }
+}
+
 .publication-entry {
   margin: 0 0 22px;
   padding: 0 0 22px;
@@ -620,7 +651,7 @@ nav {
 
   h3 {
     margin: 0 0 8px;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 1.35;
   }
@@ -631,10 +662,42 @@ nav {
   }
 }
 
+.publication-title-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  align-items: baseline;
+  margin-bottom: 8px;
+
+  h3 {
+    flex: 1 1 360px;
+    margin-bottom: 0;
+  }
+}
+
+.publication-badges {
+  display: inline-flex;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 0 !important;
+
+  span {
+    display: inline-block;
+    padding: 2px 6px;
+    border: 1px solid $lightGray;
+    border-radius: 4px;
+    color: $gray;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+}
+
 .publication-card--domestic {
   .publication-entry {
     h3 {
-      font-size: 18px;
+      font-size: 17px;
     }
 
     .publication-authors,
@@ -646,6 +709,10 @@ nav {
 
 .publication-authors {
   color: $gray;
+
+  strong {
+    color: $darkerGray;
+  }
 }
 
 .publication-venue {
