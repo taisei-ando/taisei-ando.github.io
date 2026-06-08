@@ -402,7 +402,8 @@ nav {
   min-width: 0;
 }
 
-.cv-card {
+.cv-card,
+.publication-card {
   scroll-margin-top: 84px;
   margin-bottom: 24px;
   padding: 26px 28px;
@@ -591,18 +592,6 @@ nav {
   margin-top: 18px;
 }
 
-.publication-card {
-  margin-bottom: 24px;
-  padding: 26px 28px;
-  border: 1px solid $lightGray;
-  border-radius: 8px;
-  background: $white;
-
-  h2 {
-    margin-bottom: 24px;
-  }
-}
-
 .publication-entry {
   margin: 0 0 28px;
 
@@ -612,7 +601,8 @@ nav {
 
   h3 {
     margin: 0 0 8px;
-    font-size: 21px;
+    font-size: 19px;
+    font-weight: 600;
     line-height: 1.35;
   }
 
@@ -623,15 +613,12 @@ nav {
 }
 
 .publication-authors {
-  color: $darkGray;
+  color: $gray;
 }
 
 .publication-venue {
   color: $gray;
-}
-
-.publication-award {
-  color: #b3261e;
+  font-style: italic;
 }
 
 .biography-group {
