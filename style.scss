@@ -23,6 +23,21 @@ body {
   color: $darkGray;
 }
 
+html[lang="ja"] {
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  nav,
+  .masthead-name,
+  .profile-summary h1 {
+    font-family: $notoSansJp;
+  }
+}
+
 .container {
   margin: 0 auto;
   max-width: 960px;
