@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang | default: 'en' }}">
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
@@ -22,14 +22,22 @@
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          {% unless page.url == "/" or page.url == "/about/" %}
+          {% unless page.url == "/" or page.url == "/about/" or page.url == "/ja/" %}
             <span class="masthead-name">{{ site.name }}</span>
           {% endunless %}
 
           <nav>
-            <a href="{{ site.baseurl }}/">About</a>
-            <a href="{{ site.baseurl }}/publications/">Publications</a>
-            <a href="{{ site.baseurl }}/cv/">CV</a>
+            {% if page.lang == "ja" %}
+              <a href="{{ site.baseurl }}/ja/">プロフィール</a>
+              <a href="{{ site.baseurl }}/ja/publications/">業績</a>
+              <a href="{{ site.baseurl }}/ja/cv/">CV</a>
+              <a class="language-switch" href="{{ site.baseurl }}{{ page.alternate_url | default: '/' }}">EN</a>
+            {% else %}
+              <a href="{{ site.baseurl }}/">About</a>
+              <a href="{{ site.baseurl }}/publications/">Publications</a>
+              <a href="{{ site.baseurl }}/cv/">CV</a>
+              <a class="language-switch" href="{{ site.baseurl }}{{ page.alternate_url | default: '/ja/' }}">JA</a>
+            {% endif %}
           </nav>
         </header>
       </div>
