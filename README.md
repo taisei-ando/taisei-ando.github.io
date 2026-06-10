@@ -1,152 +1,85 @@
-# [The Academic CV That Gets You Hired](https://github.com/HugoBlox/hugo-theme-academic-cv)
+# Taisei Ando Personal Website
 
-[![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/academic-cv/start/?utm_source=github&utm_medium=readme)
+安藤大生の個人ページ用リポジトリです。Hugo Blox をベースにした、日英対応のアカデミックサイトです。
 
-<h1 align="center">The Portfolio That Works While You Sleep</h1>
+- Site: <https://taisei-ando.github.io/>
+- Languages: English / Japanese
+- Main sections: About, Publications, CV, News, Projects
 
-<p align="center">
-  <strong>Your unfair advantage in academia.</strong><br/>
-  Stop sending PDFs into the void. Build a living portfolio that boosts citations and lands offers.<br/>
-  Trusted by 250,000+ researchers at <strong>MIT, Stanford, and Google</strong>.
-</p>
+## Stack
 
-<p align="center">
-  <a href="https://hugoblox.com/templates/academic-cv/start?utm_source=github&utm_medium=readme"><b>🚀 Launch Free (60s)</b></a>
-  &nbsp;•&nbsp;
-  <a href="https://hugoblox.com/templates/?open=academic-cv&loading=true&utm_source=github&utm_medium=readme">Live Demo</a>
-  &nbsp;•&nbsp;
-  <a href="https://marketplace.visualstudio.com/items?itemName=ownable.ownable"><b>Visual Editor</b></a>
-</p>
+- Hugo `0.156.0`
+- Hugo Blox
+- Node.js `22`
+- pnpm `10`
+- Go `1.21+` (Hugo Modules 用)
+- Netlify build configuration
 
-<p align="center">
-  <a href="https://discord.gg/z8wNYzb"><img src="https://img.shields.io/discord/722225264733716590?label=Join%20Discord&style=social" alt="Discord"></a>
-  <a href="https://github.com/HugoBlox/hugo-theme-academic-cv"><img src="https://img.shields.io/github/stars/HugoBlox/hugo-theme-academic-cv?label=Star%20Academic%20CV&style=social" alt="GitHub Stars"></a>
-</p>
+## Local Development
 
----
+前提:
 
-## Why This Template?
+- Hugo Extended
+- Node.js
+- pnpm
+- Go
 
-Most CVs are static PDFs that get lost in the pile. This is an **intelligent portfolio** that works 24/7 to advance your career.
-
-- **🔮 Future-Proof:** Your content lives in simple **Markdown**. No database to break, no lock-in.
-- **🤖 AI-Ready:** Optimized for search engines and LLMs, so your work is found and cited.
-- **⚡ Zero Maintenance:** Auto-import citations from BibTeX and focus on research.
-- **✍️ Edit Visually:** Use **HugoBlox Studio** in VS Code — no coding needed. Full capabilities in Pro.
-
-<p align="center">
-  <a href="https://hugoblox.com/templates/academic-cv/start?utm_source=github&utm_medium=readme">
-    <img src="https://img.shields.io/badge/⚡️%20Get%20Your%20CV%20in%2060s-ff4655?style=for-the-badge" 
-    alt="Deploy this template" width="400">
-  </a>
-</p>
-
-![HugoBlox Studio in Action](https://raw.githubusercontent.com/HugoBlox/kit/main/.github/media/studio/slide-1.webp)
-*HugoBlox Studio: Drag-and-drop page builder inside VS Code.*
-
-> "My citations went up 3x after switching to this template. The citation auto-sync feature is a lifesaver."
-> — **Dr. Zhang**, AI Research Scientist, Meta
-
----
-
-## Who This Is For
-
-- Students and grads applying to top labs and industry roles
-- Researchers who want a living, citable portfolio
-- Faculty/PIs showcasing publications, talks, and group news
-
----
-
-## Features
-
-| Feature | Benefit |
-| :--- | :--- |
-| **Markdown, Jupyter, RStudio** | Write in the tools you already use. |
-| **Auto-Update Citations** | Drop in a BibTeX file; formatted lists generated automatically. |
-| **Visual Editor** | Drag-and-drop blocks to build pages in minutes. |
-| **Global CDN** | Blazing fast load times (100/100 Lighthouse scores). |
-| **Privacy First** | You own your data. Host for free on GitHub Pages. |
-
----
-
-## Notebook → Posts and Slides
-
-- Publish your actual `.ipynb` as beautiful long-form posts — code, outputs, and narrative kept intact.
-- Slides in Markdown with Reveal.js: math, syntax highlight, diagrams, speaker notes.
-- Coming soon: **Notebook → Slides (beta)**. Request early access in Discord.
-
-Learn more: docs on [Notebooks](https://docs.hugoblox.com/reference/markdown/#-notebooks) and [Slides](https://docs.hugoblox.com/guides/slides/).
-
----
-
-## Why Go Plus (from $4/m)
-
-- Enhanced HugoBlox Studio visual editor — save 10–20 hours setting up and polishing
-- Make an unforgettable first impression
-- Priority support
-
----
-
-## Free vs Pro
-
-| Feature | Academic CV (Free) | Academic CV Pro & Resumé Pro |
-| --- | --- | --- |
-| Design | Professional & clean | Premium designs |
-| Layouts | Standard sections | Advanced timelines & layouts |
-| Courses/Lectures | Basic | Fully-Featured |
-| First Impression | Strong | Unforgettable |
-| Discord Support | Community | Priority |
-
-<p align="center">
-  <a href="https://hugoblox.com/pricing?utm_source=github&utm_medium=readme"><b>💎 Upgrade to Pro</b></a><br/>
-  <a href="https://hugoblox.com/templates/academic-cv-pro/start?utm_source=github&utm_medium=readme">✨ Deploy Academic CV Pro</a>
-  &nbsp;•&nbsp;
-  <a href="https://hugoblox.com/templates/resume-pro/start?utm_source=github&utm_medium=readme">📄 Deploy Resumé Pro</a>
-</p>
-
----
-
-## Get Started
-
-### Option 1: No-Code (Fastest)
-Launch a fully hosted site in your browser. No software to install.
-
-👉 [**Launch in Browser (Free)**](https://hugoblox.com/templates/academic-cv/start?utm_source=github&utm_medium=readme)
-
-### Option 2: Studio (Visual Editor)
-1) Install [HugoBlox Studio](https://marketplace.visualstudio.com/items?itemName=ownable.ownable) for VS Code  
-2) Open this project and edit visually
-
-### Option 3: CLI (Developers)
-1) Install [Hugo](https://docs.hugoblox.com/start/cli/)
-2) Create your site with the CLI:
+起動:
 
 ```bash
-npx hugoblox create site --template academic-cv
+pnpm install
+pnpm dev
 ```
 
----
+ビルド:
 
-## FAQ
+```bash
+pnpm build
+```
 
-- Do I need to know Hugo? No — you can edit visually or write Markdown.
-- Can I host for free? Yes — GitHub Pages/Netlify are supported.
-- Can I export/migrate later? Yes — your site is just files.
-- Can I cancel Pro anytime? Yes.
+ローカルサーバーは通常 `http://localhost:1313` で立ち上がります。
 
----
+## Project Structure
 
-## Community & Support
+```text
+config/_default/         Hugo / Hugo Blox の設定
+content/en/              英語コンテンツ
+content/ja/              日本語コンテンツ
+data/authors/            プロフィール情報
+assets/media/            プロフィール画像やアイコン
+layouts/                 テーマ上書き用のカスタムレイアウト
+netlify.toml             Netlify のビルド設定
+```
 
-- 💬 [**Discord Community**](https://discord.gg/z8wNYzb)
-- 📚 [**Documentation**](https://docs.hugoblox.com/?utm_source=github&utm_medium=readme)
-- 🐦 [**Follow on X**](https://x.com/MakeOwnable)
-- ⭐ [**Star on GitHub**](https://github.com/HugoBlox/kit)
+## Where To Edit
 
----
+主に編集する場所:
 
-MIT © 2016-Present [George Cushen](https://georgecushen.com)
+- `data/authors/me.yaml`: 英語プロフィール
+- `data/authors/me-ja.yaml`: 日本語プロフィール
+- `content/en/_index.md`: 英語トップ
+- `content/ja/_index.md`: 日本語トップ
+- `content/en/publications/`, `content/ja/publications/`: 論文一覧
+- `content/en/news/`, `content/ja/news/`: お知らせ
+- `content/en/projects/`, `content/ja/projects/`: プロジェクト
+- `content/en/cv.md`, `content/ja/cv.md`: CV
+- `config/_default/menus.yaml`, `config/_default/menus.ja.yaml`: ナビゲーション
 
-<!--START_SECTION:news-->
-<!--Updated at 2026-02-22T01:11:53.876Z-->
-<!--END_SECTION:news-->
+## Customization Notes
+
+このリポジトリは Hugo Blox の素のテンプレートではなく、以下を個別調整しています。
+
+- 日英 2 言語構成
+- プロフィール情報の独自更新
+- `layouts/` 配下でのブロック/パーシャル上書き
+- Netlify 用ビルド設定
+
+テンプレート更新時は、`layouts/` と `hugo-blox/` 配下の差分影響を先に確認した方が安全です。
+
+## Deployment
+
+Netlify でのビルド設定は [`netlify.toml`](/mnt/c/Users/taab7/workspace/taisei-ando.github.io/netlify.toml) にあります。公開 URL の既定値は [`config/_default/hugo.yaml`](/mnt/c/Users/taab7/workspace/taisei-ando.github.io/config/_default/hugo.yaml) で `https://taisei-ando.github.io/` に設定しています。
+
+## License
+
+サイト本文・業績情報・画像などの扱いは著作権者の意図を優先してください。コードベースのライセンスは [`LICENSE.md`](/mnt/c/Users/taab7/workspace/taisei-ando.github.io/LICENSE.md) を参照してください。
