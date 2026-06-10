@@ -1,5 +1,5 @@
 ---
-title: 業績
+title: Publications
 cms_exclude: true
 type: landing
 
@@ -9,7 +9,7 @@ design:
 sections:
   - block: markdown
     content:
-      title: 国際論文・国際会議
+      title: International Publications
       text: |-
         ### 2026
 
@@ -49,7 +49,7 @@ sections:
 
   - block: markdown
     content:
-      title: 国内学会発表
+      title: Domestic Conference Presentations
       text: |-
         ### 2025
 

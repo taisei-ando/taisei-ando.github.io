@@ -17,9 +17,6 @@ sections:
         education: ''
         interests: ''
     design:
-      background:
-        gradient_mesh:
-          enable: true
       name:
         size: md
       avatar:
