@@ -94,7 +94,7 @@
   }
 
   .compact-publications h3 {
-    max-width: 980px;
+    max-width: 780px;
     margin-top: 1.75rem;
     margin-bottom: 0.75rem;
     margin-left: auto;
@@ -109,7 +109,7 @@
   }
 
   .compact-publications article {
-    max-width: 980px;
+    max-width: 780px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1.25rem;
@@ -124,9 +124,38 @@
     line-height: 1.4;
   }
 
-  .compact-publications code {
+  .compact-publications .pub-venue-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .compact-publications .pub-badges {
+    display: inline-flex;
+    flex-shrink: 0;
+    gap: 0.35rem;
+    white-space: nowrap;
+  }
+
+  .compact-publications .pub-badges span {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 9999px;
+    background: rgba(55, 65, 81, 0.9);
+    color: #ffffff;
     font-size: 0.72rem;
-    padding: 0.12rem 0.36rem;
+    font-weight: 700;
+    line-height: 1;
+    padding: 0.22rem 0.45rem;
+  }
+
+  @media (max-width: 767px) {
+    .compact-publications .pub-venue-line {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
   }
 
   .about-profile {
