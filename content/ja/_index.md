@@ -27,49 +27,26 @@ sections:
         shape: circle
   - block: markdown
     content:
-      title: '📚 研究について'
+      title: '自己紹介'
       subtitle: ''
       text: |-
-        東北大学博士後期課程 Tough Robotics Lab所属．ロボットの自律移動に不可欠なSimultaneous Localization and Mapping (SLAM)の研究を主に行う．また，Integrated Sensing and Communication (ISAC)の概念に基づき，自律走行中の通信とセンシングの品質を同時に最適化する手法についての研究にも従事．自律走行中の通信品質を担保しながら，位置推定精度の向上を実現する新たな研究分野を開拓する．
-
-        研究協力のご相談はお気軽にどうぞ
+        東京大学大学院の博士課程でロボティクスを研究しています。
+        主な研究分野は、ロボティクス、自己位置推定、コンピュータビジョン、機械学習です。
 
     design:
       columns: '1'
-  - block: collection
+  - block: markdown
     content:
-      title: 最近の論文
-      text: ''
-      count: 5
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-      order: desc
+      title: '主要業績'
+      text: |-
+        **CubeDVO: Cubemap-Spherical Deep Visual Odometry for a Monocular 360-Degree Camera**  
+        Taisei Ando, Junwoon Lee, Takuya Igaue, Kohtaro Nakamura, Mitsuru Shinozaki, Toshihiro Kitajima, Qi An, and Atsushi Yamashita  
+        IEEE Robotics and Automation Letters, Vol. 11, 2026. Accepted.
+
+        **Efficient Distortion Mitigation in Equirectangular Images for Two-View Pose Estimation**  
+        Taisei Ando, Junwoon Lee, Mitsuru Shinozaki, Toshihiro Kitajima, Qi An, and Atsushi Yamashita  
+        International Journal of Automation Technology, Vol. 19, No. 3, pp. 226-236, May 2025.  
+        [Paper](https://www.fujipress.jp/ijat/au/ijate001900030226/)
     design:
-      view: citation
-  - block: collection
-    id: news
-    content:
-      title: 最近のニュース
-      subtitle: ''
-      text: ''
-      page_type: news
-      count: 5
-      archive:
-        enable: true
-      filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
-      offset: 0
-      order: desc
-    design:
-      view: card
-      spacing:
-        padding: [0, 0, 0, 0]
+      columns: '1'
 ---

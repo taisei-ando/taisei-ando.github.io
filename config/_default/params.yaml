@@ -13,20 +13,20 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Kota Ikeno"
+    name: "Taisei Ando"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: "Tohoku University"
+    organization: "The University of Tokyo"
     # Schema.org type for structured data
     type: person                        # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: "Bridging Robotics SLAM and ISAC"
+    tagline: "Robotics, localization, computer vision, and machine learning"
     # Site meta description for search engines and social sharing
-    description: "Academic homepage of Kota Ikeno. I work on SLAM and Integrated Sensing and Communication (ISAC), focusing on robust state estimation by fusing radio and robotic sensing."
+    description: "Academic homepage of Taisei Ando, Ph.D. student in Robotics at The University of Tokyo."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "https://x.com/ikeno_rs"              # Twitter/X handle for Twitter Cards (without @)
-      github: "https://github.com/mendelas"
-      linkedin: "https://www.linkedin.com/in/kota-ikeno-5930102a8/"
+      twitter: ""              # Twitter/X handle for Twitter Cards (without @)
+      github: ""
+      linkedin: "https://www.linkedin.com/in/taisei-ando/"
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
