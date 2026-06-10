@@ -87,6 +87,12 @@
     line-height: 1.55;
   }
 
+  .prose:has(.compact-publications),
+  .max-w-prose:has(.compact-publications) {
+    max-width: min(1500px, calc(100vw - 4rem)) !important;
+    width: min(1500px, calc(100vw - 4rem)) !important;
+  }
+
   .compact-publications h3 {
     margin-top: 1.75rem;
     margin-bottom: 0.75rem;
