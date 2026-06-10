@@ -23,13 +23,15 @@ sections:
           <article>
             <p class="pub-title"><strong>Efficient Distortion Mitigation in Equirectangular Images for Two-View Pose Estimation</strong></p>
             <p><strong>Taisei Ando</strong>, Junwoon Lee, Mitsuru Shinozaki, Toshihiro Kitajima, Qi An, and Atsushi Yamashita</p>
-            <p class="pub-venue-line"><span>International Journal of Automation Technology, Vol. 19, No. 3, pp. 226-236, May 2025. <a href="https://www.fujipress.jp/ijat/au/ijate001900030226/">Paper</a></span><span class="pub-badges"><span>JOURNAL</span><span>IJAT</span></span></p>
+            <p class="pub-venue-line"><span>International Journal of Automation Technology, Vol. 19, No. 3, pp. 226-236, May 2025.</span><span class="pub-badges"><span>JOURNAL</span><span>IJAT</span></span></p>
+            <p class="pub-paper"><a href="https://www.fujipress.jp/ijat/au/ijate001900030226/">Paper</a></p>
           </article>
 
           <article>
             <p class="pub-title"><strong>Self-TIO: Thermal-Inertial Odometry via Self-Supervised 16-Bit Feature Extractor and Tracker</strong></p>
             <p>Junwoon Lee, <strong>Taisei Ando</strong>, Mitsuru Shinozaki, Toshihiro Kitajima, Qi An, and Atsushi Yamashita</p>
-            <p class="pub-venue-line"><span>IEEE Robotics and Automation Letters, Vol. 10, No. 2, pp. 1003-1010, Feb. 2025. <a href="https://doi.org/10.1109/LRA.2024.3518303">Paper</a></span><span class="pub-badges"><span>JOURNAL</span><span>IEEE RA-L</span></span></p>
+            <p class="pub-venue-line"><span>IEEE Robotics and Automation Letters, Vol. 10, No. 2, pp. 1003-1010, Feb. 2025.</span><span class="pub-badges"><span>JOURNAL</span><span>IEEE RA-L</span></span></p>
+            <p class="pub-paper"><a href="https://doi.org/10.1109/LRA.2024.3518303">Paper</a></p>
           </article>
 
           <h3>2024</h3>
@@ -42,7 +44,8 @@ sections:
           <article>
             <p class="pub-title"><strong>TC-LTIO: Tightly-Coupled LiDAR Thermal Inertial Odometry for LiDAR and Visual Odometry Degraded Environments</strong></p>
             <p>Junwoon Lee, <strong>Taisei Ando</strong>, Mitsuru Shinozaki, Toshihiro Kitajima, Qi An, and Atsushi Yamashita</p>
-            <p class="pub-venue-line"><span>2024 24th International Conference on Control, Automation and Systems (ICCAS), pp. 655-660, Oct. 2024. <a href="https://doi.org/10.23919/ICCAS63016.2024.10773102">Paper</a></span><span class="pub-badges"><span>CONFERENCE</span><span>ICCAS 2024</span></span></p>
+            <p class="pub-venue-line"><span>2024 24th International Conference on Control, Automation and Systems (ICCAS), pp. 655-660, Oct. 2024.</span><span class="pub-badges"><span>CONFERENCE</span><span>ICCAS 2024</span></span></p>
+            <p class="pub-paper"><a href="https://doi.org/10.23919/ICCAS63016.2024.10773102">Paper</a></p>
           </article>
         </div>
     design:
