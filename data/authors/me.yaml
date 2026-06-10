@@ -1,0 +1,178 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Kota Ikeno
+  given: Kota
+  family: Ikeno
+  alternate: ""
+  pronunciation: ""
+  pronouns: he/him
+postnominals:
+  - PhD
+  - MIEEE
+status:
+  icon: "🤖"
+role: Phd Student at Tohoku University
+bio: |
+  Deployable Physical AI for reliable autonomy.
+  I build localization and mapping systems that stay robust in challenging environments by combining robotics and wireless sensing.
+
+affiliations:
+  - name: Tough Robotics Lab
+    url: https://tr.is.tohoku.ac.jp/
+
+links:
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/kota-ikeno-5930102a8/
+  - icon: brands/x
+    url: https://x.com/ikeno_rs
+  - icon: brands/github
+    url: https://github.com/mendelas
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=example
+  - icon: academicons/orcid
+    url: https://orcid.org/my-orcid?orcid=0009-0001-3669-9429
+  - icon: custom/researchmap
+    url: https://researchmap.jp/kota-ikeno
+
+interests:
+  - Physical AI
+  - SLAM
+  - Integrated Sensing and Communication (ISAC)
+  - Wireless Sensing & Signal Processing
+  - Space Robotics
+
+education:
+  - degree: PhD Computer Science
+    institution: Tohoku University
+    logo: tough-robotics.png
+    start: 2026-04-01
+    # end: 2029-03-31
+    summary: |
+      Research on Physical AI, SLAM, and Integrated Sensing and Communication (ISAC),focusing on radio-aware localization and mapping.
+    button:
+      text: Tough Robotics Lab
+      url: https://tr.is.tohoku.ac.jp/
+      icon: hero/arrow-down-tray
+  - degree: MS AeroSpace Engineering
+    institution: Tohoku University
+    logo: space-robotics.png
+    start: 2024-04-01
+    end: 2026-03-31
+    summary: |
+      Conducted research on localization and navigation for lunar rovers in featureless environments at the Space Robotics Lab.
+    button:
+      text: Space Robotics Lab
+      url: https://astro2.mech.tohoku.ac.jp/
+      icon: hero/arrow-down-tray
+  - degree: BS AeroSpace Engineering
+    institution: Osaka Metropolitan University
+    logo: omu.svg
+    start: 2020-04-01
+    end: 2024-03-31
+    button:
+      text: GNSS Lab
+      url: https://www.omu.ac.jp/eng/gnss/
+      icon: hero/arrow-down-tray
+
+experience:
+  - role: NICT RA
+    org: National Institute of Information and Communications Technology (NICT)
+    logo: nict.svg
+    start: 2026-04-01
+    #end: 2026-03-31
+    summary: |
+      Conducting research on methods for utillizing Wi-Fi Signals as Sensors. Accepted by a top-tier journal.
+    button:
+      text: Lab website
+      url: https://www.nict.go.jp/resil/
+      icon: hero/arrow-down-tray
+
+  - role: AIST RA
+    org: National Institute of Advanced Industrial Science and Technology (AIST)
+    logo: aist.png
+    start: 2024-11-01
+    # end: 2026-03-31
+    summary: |
+      Conducting research on tightly coupling radio waves with LiDAR-IMU SLAM. accepted by a top-tier journal.
+    button:
+      text: Lab website
+      url: https://www.digiarc.aist.go.jp/
+      icon: hero/arrow-down-tray
+
+  - role: Space Robotics Intern
+    org: Space Quarters
+    logo: space-quarters.png
+    start: 2022-01-01
+    end: 2025-03-31
+    summary: |
+      Conducted research on welding robots for the construction of space structures.
+    button:
+      text: Company website
+      url: https://space-quarters.com/
+      icon: hero/arrow-down-tray
+
+  - role: Small Satellite Developer
+    org: Space System and Space Science Research Center (SSSRC), Osaka Metropolitan University
+    logo: omu.svg
+    start: 2020-04-01
+    end: 2024-03-31
+    summary: |
+      Developed the communications subsystem for OMUSAT-3 and Hirogari small satellites, covering telemetry, telecommand, uplink/downlink, and SSTV broadcasting of Earth imagery for amateur radio operators.
+    button:
+      text: SSSRC website
+      url: https://www.omu.ac.jp/eng/sssrc/
+      icon: hero/arrow-down-tray
+
+skills:
+  - name: Technical Skills
+    items:
+      - label: Python
+        level: 5
+      - label: C++
+        level: 5
+      - label: ROS
+        level: 4
+      - label: SLAM Algorithms
+        level: 5
+      - label: Wireless Signal Processing
+        level: 4
+  - name: Research & Communication
+    items:
+      - label: Academic Writing
+        level: 5
+      - label: Conference Presentations
+        level: 4
+      - label: Grant Proposals
+        level: 4
+  - name: Sports
+    items:
+      - label: Soccer
+        level: 5
+      - label: Marathon
+        level: 4
+      - label: Table Tennis
+        level: 3
+
+languages:
+  - name: English
+    level: 4
+    label: Fluent
+  - name: Japanese
+    level: 5
+    label: Native
+
+awards:
+  - title: 3rd Place, Precise Positioning Challenge 2023
+    awarder: Japan Institute of Navigation (GPS/GNSS Symposium 2023)
+    date: "2023-10-01"
+    icon: hero/trophy
+  - title: President's Commendation, Osaka Metropolitan University (FY2023)
+    awarder: Osaka Metropolitan University
+    date: "2024-03-01"
+    icon: hero/trophy
+  - title: Academic Excellence Award, Osaka Prefecture University (FY2021)
+    awarder: Osaka Prefecture University
+    date: "2022-03-01"
+    icon: hero/trophy
