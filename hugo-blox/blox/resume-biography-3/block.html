@@ -32,11 +32,14 @@
       {{ with $links }}
         <div class="about-profile__links" aria-label="Profile links">
           {{ range . }}
-            {{ $label := replaceRE "^.*/" "" .url }}
+            {{ $icon := .icon | default "hero/link" }}
+            {{ $label := .label | default $icon }}
             {{ if hasPrefix .url "mailto:" }}{{ $label = "Email" }}{{ end }}
-            {{ if in .url "scholar.google" }}{{ $label = "Scholar" }}{{ end }}
+            {{ if in .url "scholar.google" }}{{ $label = "Google Scholar" }}{{ end }}
             {{ if in .url "linkedin" }}{{ $label = "LinkedIn" }}{{ end }}
-            <a href="{{ .url }}" {{ if not (hasPrefix .url "mailto:") }}target="_blank" rel="noopener"{{ end }}>{{ $label }}</a>
+            <a class="about-profile__icon-link" href="{{ .url }}" aria-label="{{ $label }}" title="{{ $label }}" {{ if not (hasPrefix .url "mailto:") }}target="_blank" rel="noopener"{{ end }}>
+              {{ partial "functions/get_icon" (dict "name" $icon "attributes" "class='w-6 h-6'") }}
+            </a>
           {{ end }}
         </div>
       {{ end }}
