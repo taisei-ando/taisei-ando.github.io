@@ -16,7 +16,7 @@ sections:
       username: me
       text: ''
       headings:
-        about: ''
+        about: 'About'
         education: ''
         interests: ''
     design:
@@ -28,16 +28,6 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: markdown
-    content:
-      title: 'About'
-      subtitle: ''
-      text: |-
-        I am a Ph.D. student in Robotics at The University of Tokyo.
-        My research interests include robotics, localization, computer vision, and machine learning.
-
-    design:
-      columns: '1'
   - block: markdown
     content:
       title: 'Selected Papers'

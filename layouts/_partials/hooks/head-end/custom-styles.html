@@ -33,4 +33,18 @@
   [style*="gradient"] {
     background-image: none !important;
   }
+
+  /* Add breathing room before the site name in the header. */
+  @media (min-width: 768px) {
+    header a:first-of-type {
+      margin-left: 1.5rem;
+    }
+  }
+
+  html.dark,
+  html.dark body,
+  html.dark main {
+    background: rgb(25, 53, 73) !important;
+    background-image: none !important;
+  }
 </style>

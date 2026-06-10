@@ -13,7 +13,7 @@ sections:
       username: me-ja
       text: ''
       headings:
-        about: ''
+        about: 'About'
         education: ''
         interests: ''
     design:
@@ -22,16 +22,6 @@ sections:
       avatar:
         size: medium
         shape: circle
-  - block: markdown
-    content:
-      title: '自己紹介'
-      subtitle: ''
-      text: |-
-        東京大学大学院の博士課程でロボティクスを研究しています。
-        主な研究分野は、ロボティクス、自己位置推定、コンピュータビジョン、機械学習です。
-
-    design:
-      columns: '1'
   - block: markdown
     content:
       title: '主要業績'

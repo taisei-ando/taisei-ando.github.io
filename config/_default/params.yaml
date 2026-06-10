@@ -44,7 +44,8 @@ hugoblox:
       neutral: ""                       # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
     colors_light: {}
-    colors_dark: {}
+    colors_dark:
+      background: "rgb(25, 53, 73)"
     # Optional: Semantic surface color overrides
     surfaces:
       background: "#ffffff"
@@ -91,7 +92,7 @@ hugoblox:
     # Menu alignment
     align: center                       # left | center | right
     # Feature toggles
-    search: true
+    search: false
     theme_toggle: true
     theme_picker: false
     language_switcher: true
@@ -175,7 +176,7 @@ hugoblox:
   # Site search
   # ────────────────────────────────────────────────────────────────────────────
   search:
-    enable: true
+    enable: false
     # Trending/suggested search terms
     suggestions: []
     # Quick action shortcuts in search modal
