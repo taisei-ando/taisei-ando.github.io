@@ -1,6 +1,12 @@
 ---
 title: CV
+toc: false
+reading_time: false
+show_reading_time: false
+show_date: false
 ---
+
+<div class="cv-page-marker"></div>
 
 ## 基本情報
 

@@ -80,7 +80,7 @@
   }
 
   .compact-publications {
-    max-width: 980px;
+    max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
     font-size: 0.88rem;
@@ -223,4 +223,14 @@
     }
   }
 
+  .cv-page-marker {
+    display: none;
+  }
+
+  body:has(.cv-page-marker) .article-metadata,
+  body:has(.cv-page-marker) .page-metadata,
+  body:has(.cv-page-marker) [class*="reading"],
+  body:has(.cv-page-marker) [class*="Reading"] {
+    display: none !important;
+  }
 </style>
