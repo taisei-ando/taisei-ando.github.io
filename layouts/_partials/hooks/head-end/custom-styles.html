@@ -75,8 +75,17 @@
     color: #93c5fd !important;
   }
 
-  html.dark header button {
-    background-color: rgba(255, 255, 255, 0.08) !important;
+  html.dark header .theme-toggle,
+  html.dark header [data-hb-language-chooser] {
+    background-color: rgb(15, 34, 48) !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0.375rem !important;
+  }
+
+  html.dark header .theme-toggle:hover,
+  html.dark header [data-hb-language-chooser]:hover {
+    background-color: rgba(255, 255, 255, 0.04) !important;
   }
 
   .compact-publications {
@@ -108,10 +117,25 @@
     margin-bottom: 0.35rem;
   }
 
-  .compact-publications article {
+  .compact-publications ol {
     max-width: 780px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 1.75rem;
+    list-style-position: outside;
+  }
+
+  .compact-publications li {
+    margin-bottom: 1.25rem;
+    padding-left: 0.15rem;
+  }
+
+  .compact-publications li::marker {
+    font-weight: 700;
+  }
+
+  .compact-publications article {
+    width: 100%;
     margin-bottom: 1.25rem;
   }
 
@@ -267,10 +291,33 @@
   .about-profile__panel ul {
     margin: 0;
     padding-left: 1.25rem;
+    list-style: disc;
+    list-style-position: outside;
+  }
+
+  .about-profile__panel ul li::marker {
+    color: currentColor;
   }
 
   .about-profile__papers article {
     margin-bottom: 1rem;
+  }
+
+  .about-profile__papers ol {
+    margin: 0;
+    padding-left: 1.25rem;
+    list-style: decimal;
+    list-style-position: outside;
+  }
+
+  .about-profile__papers li {
+    margin-bottom: 1rem;
+    padding-left: 0.15rem;
+  }
+
+  .about-profile__papers li::marker {
+    font-weight: 700;
+    color: currentColor;
   }
 
   .about-profile__papers p {
@@ -283,6 +330,11 @@
     font-size: 0.95rem;
     font-weight: 700;
     line-height: 1.4;
+  }
+
+  .about-profile__papers .paper-link a {
+    font-weight: 600;
+    text-decoration: underline;
   }
 
   html.dark .about-profile__panel,
@@ -305,6 +357,18 @@
     display: none;
   }
 
+  .publications-page-marker {
+    display: none;
+  }
+
+  body:has(.publications-page-marker) .page-body {
+    padding-top: 3rem !important;
+  }
+
+  body:has(.publications-page-marker) .page-body > section.hbb-section:first-of-type {
+    padding-top: 0 !important;
+  }
+
   body:has(.cv-page-marker) .article-metadata,
   body:has(.cv-page-marker) .page-metadata,
   body:has(.cv-page-marker) [class*="reading"],
@@ -314,6 +378,12 @@
 
   body:has(.cv-page-marker) main h1 {
     display: none !important;
+  }
+
+  body:has(.cv-page-marker) .page-body {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 3rem !important;
   }
 
   body:has(.cv-page-marker) .prose {
@@ -337,6 +407,6 @@
   }
 
   body:has(.cv-page-marker) main {
-    padding-top: 2rem !important;
+    padding-top: 0 !important;
   }
 </style>

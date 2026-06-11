@@ -109,7 +109,7 @@ hugoblox:
   footer:
     # Footer style variant
     style: minimal                      # minimal | columns | centered
-    language_switcher: true
+    language_switcher: false
     # Custom footer text (HTML supported)
     text: "© 2026 Taisei Ando. All rights reserved."
 
@@ -119,7 +119,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "Published with Hugo Blox Builder — the free, open source website builder that empowers creators."
+    notice: 'Published with [Hugo Blox Builder](https://hugoblox.com/?utm_campaign=poweredby) — the free, [open source](https://github.com/HugoBlox/kit) website builder that empowers creators.'
     license:
       type: custom                      # cc | custom
       label: ""
