@@ -149,17 +149,15 @@
   }
 
   .compact-publications .pub-venue-line {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
+    display: block;
+    margin-bottom: 0.35rem;
   }
 
   .compact-publications .pub-badges {
     display: inline-flex;
-    flex-shrink: 0;
     gap: 0.35rem;
     white-space: nowrap;
+    margin-top: 0.15rem;
   }
 
   .compact-publications .pub-badges span {
@@ -187,9 +185,7 @@
 
   @media (max-width: 767px) {
     .compact-publications .pub-venue-line {
-      align-items: flex-start;
-      flex-direction: column;
-      gap: 0.35rem;
+      display: block;
     }
   }
 
