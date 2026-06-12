@@ -10,6 +10,7 @@
 {{ $headings := .wcBlock.content.headings | default dict }}
 {{ $about_heading := index $headings "about" | default "About" }}
 {{ $interests_heading := index $headings "interests" | default "Interests" }}
+{{ $selected_papers_heading := index $headings "selected_papers" | default "Selected Papers" }}
 {{ $avatar := resources.Get "media/authors/me.jpg" }}
 
 <section class="about-profile">
@@ -59,7 +60,7 @@
       </section>
 
       <section class="about-profile__panel">
-        <h2>Selected Papers</h2>
+        <h2>{{ $selected_papers_heading }}</h2>
         <div class="about-profile__papers">
           <ol>
             <li>

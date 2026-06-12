@@ -13,9 +13,10 @@ sections:
       username: me-ja
       text: ''
       headings:
-        about: 'About'
+        about: 'プロフィール'
         education: ''
-        interests: ''
+        interests: '興味・関心'
+        selected_papers: '主要業績'
     design:
       name:
         size: md
