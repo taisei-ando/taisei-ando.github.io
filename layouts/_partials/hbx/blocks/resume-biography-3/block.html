@@ -6,11 +6,14 @@
 {{ $bio := index $profile "bio" }}
 {{ $affiliations := index $profile "affiliations" }}
 {{ $links := index $profile "links" }}
+{{ $honors := index $profile "honors" }}
 {{ $interests := index $profile "interests" }}
 {{ $headings := .wcBlock.content.headings | default dict }}
 {{ $about_heading := index $headings "about" | default "About" }}
 {{ $interests_heading := index $headings "interests" | default "Interests" }}
+{{ $affiliations_heading := index $headings "affiliations" | default "Affiliations" }}
 {{ $selected_papers_heading := index $headings "selected_papers" | default "Selected Papers" }}
+{{ $honors_heading := index $headings "honors" | default "Honors" }}
 {{ $avatar := resources.Get "media/authors/me.jpg" }}
 
 <section class="about-profile">
@@ -54,29 +57,54 @@
 
       <section class="about-profile__panel">
         <h2>{{ $interests_heading }}</h2>
+        <div class="about-profile__interests">
+          {{ range $interests }}<span class="about-profile__interest-pill">{{ . }}</span>{{ end }}
+        </div>
+      </section>
+
+      {{ with $affiliations }}
+      <section class="about-profile__panel">
+        <h2>{{ $affiliations_heading }}</h2>
         <ul>
-          {{ range $interests }}<li>{{ . }}</li>{{ end }}
+          {{ range . }}
+          <li>
+            {{ with .role }}<span class="about-profile__aff-role">{{ . }}</span>, {{ end }}{{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}{{ .name }}{{ with .url }}</a>{{ end }}
+          </li>
+          {{ end }}
         </ul>
       </section>
+      {{ end }}
 
       <section class="about-profile__panel">
         <h2>{{ $selected_papers_heading }}</h2>
         <div class="about-profile__papers">
-          <ol>
+          <ul style="list-style: none; padding-left: 0;">
             <li>
               <p class="paper-title">CubeDVO: Cubemap-Spherical Deep Visual Odometry for a Monocular 360-Degree Camera</p>
               <p>Taisei Ando, Junwoon Lee, Takuya Igaue, Kohtaro Nakamura, Mitsuru Shinozaki, Toshihiro Kitajima, Qi An, and Atsushi Yamashita</p>
               <p>IEEE Robotics and Automation Letters, Vol. 11, 2026. Accepted.</p>
+              <p class="paper-link"><a href="https://www.robot.t.u-tokyo.ac.jp/~yamashita/paper/A/A229Final.pdf" target="_blank" rel="noopener">Paper</a></p>
             </li>
             <li>
               <p class="paper-title">Efficient Distortion Mitigation in Equirectangular Images for Two-View Pose Estimation</p>
               <p>Taisei Ando, Junwoon Lee, Mitsuru Shinozaki, Toshihiro Kitajima, Qi An, and Atsushi Yamashita</p>
               <p>International Journal of Automation Technology, Vol. 19, No. 3, pp. 226-236, May 2025.</p>
-              <p class="paper-link"><a href="https://www.fujipress.jp/ijat/au/ijate001900030226/">Paper</a></p>
+              <p class="paper-link"><a href="https://www.fujipress.jp/main/wp-content/themes/Fujipress/pdf_subscribed.php" target="_blank" rel="noopener">Paper</a></p>
             </li>
-          </ol>
+          </ul>
         </div>
       </section>
+
+      {{ with $honors }}
+      <section class="about-profile__panel">
+        <h2>{{ $honors_heading }}</h2>
+        <ul class="about-profile__honors">
+          {{ range . }}
+          <li><strong>{{ .title }}</strong><br>{{ .date }}, {{ .organization }}</li>
+          {{ end }}
+        </ul>
+      </section>
+      {{ end }}
     </div>
   </div>
 </section>

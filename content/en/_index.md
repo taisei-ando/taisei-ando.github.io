@@ -19,6 +19,9 @@ sections:
         about: 'About'
         education: ''
         interests: ''
+        affiliations: 'Affiliations'
+        selected_papers: 'Selected Papers'
+        honors: 'Honors'
     design:
       # Name heading sizing to accommodate long or short names
       name:

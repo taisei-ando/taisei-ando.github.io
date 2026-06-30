@@ -19,8 +19,10 @@ bio: |
 affiliations:
   - name: The University of Tokyo
     url: https://www.u-tokyo.ac.jp/en/
+    role: Ph.D. Student
   - name: National Institute of Advanced Industrial Science and Technology (AIST)
     url: https://www.aist.go.jp/index_en.html
+    role: Research Assistant
 
 links:
   - icon: hero/envelope

@@ -88,4 +88,5 @@ Apr. 2022 - Mar. 2026, Satomi Scholarship Foundation
 
 - **Reviewer Service:**
   - IEEE Robotics and Automation Letters (IEEE RA-L)
-- **Application development**
+- **Application Development**
+  - [情報 快速ドリル - 共通テスト対策](https://apps.apple.com/jp/app/情報-快速ドリル-共通テスト対策/id6769704197) (App Store)

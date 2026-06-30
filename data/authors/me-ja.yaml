@@ -19,8 +19,10 @@ bio: |
 affiliations:
   - name: 東京大学
     url: https://www.u-tokyo.ac.jp/
+    role: 博士課程学生
   - name: 産業技術総合研究所（AIST）
     url: https://www.aist.go.jp/
+    role: リサーチアシスタント
 
 links:
   - icon: hero/envelope

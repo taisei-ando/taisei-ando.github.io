@@ -89,3 +89,4 @@ show_date: false
 - **査読:**
   - IEEE Robotics and Automation Letters (IEEE RA-L)
 - **アプリケーション開発**
+  - [情報 快速ドリル - 共通テスト対策](https://apps.apple.com/jp/app/情報-快速ドリル-共通テスト対策/id6769704197)（App Store）
