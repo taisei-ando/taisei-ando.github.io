@@ -19,6 +19,8 @@ bio: |
 affiliations:
   - name: 東京大学
     url: https://www.u-tokyo.ac.jp/
+  - name: 産業技術総合研究所（AIST）
+    url: https://www.aist.go.jp/
 
 links:
   - icon: hero/envelope
@@ -33,6 +35,23 @@ interests:
   - 自己位置推定
   - コンピュータビジョン
   - 機械学習
+
+honors:
+  - title: 大学院研究奨励賞
+    date: 2026年2月
+    organization: 公益社団法人 自動車技術会
+  - title: 優秀講演賞
+    date: 2025年12月
+    organization: 第26回計測自動制御学会システムインテグレーション部門講演会
+  - title: Best Paper Award
+    date: 2024年10月
+    organization: The 24th International Conference on Control, Automation and Systems (ICCAS 2024)
+  - title: フェローシップ
+    date: 2024年10月 - 現在
+    organization: 東京大学大学院 知能社会国際卓越大学院プログラム 卓越リサーチアシスタント
+  - title: 奨学金
+    date: 2022年4月 - 2026年3月
+    organization: 公益財団法人 里見奨学会
 
 education:
   - degree: 博士課程

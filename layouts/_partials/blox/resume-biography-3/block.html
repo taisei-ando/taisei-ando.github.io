@@ -6,6 +6,7 @@
 {{ $bio := index $profile "bio" }}
 {{ $affiliations := index $profile "affiliations" }}
 {{ $links := index $profile "links" }}
+{{ $honors := index $profile "honors" }}
 {{ $interests := index $profile "interests" }}
 {{ $headings := .wcBlock.content.headings | default dict }}
 {{ $about_heading := index $headings "about" | default "About" }}
@@ -58,10 +59,21 @@
         </ul>
       </section>
 
+      {{ with $affiliations }}
+      <section class="about-profile__panel">
+        <h2>Affiliations</h2>
+        <ul>
+          {{ range . }}
+          <li>{{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}{{ .name }}{{ with .url }}</a>{{ end }}</li>
+          {{ end }}
+        </ul>
+      </section>
+      {{ end }}
+
       <section class="about-profile__panel">
         <h2>Selected Papers</h2>
         <div class="about-profile__papers">
-          <ol>
+          <ul style="list-style: none; padding-left: 0;">
             <li>
               <p class="paper-title">CubeDVO: Cubemap-Spherical Deep Visual Odometry for a Monocular 360-Degree Camera</p>
               <p>Taisei Ando, Junwoon Lee, Takuya Igaue, Kohtaro Nakamura, Mitsuru Shinozaki, Toshihiro Kitajima, Qi An, and Atsushi Yamashita</p>
@@ -73,9 +85,20 @@
               <p>International Journal of Automation Technology, Vol. 19, No. 3, pp. 226-236, May 2025.</p>
               <p class="paper-link"><a href="https://www.fujipress.jp/ijat/au/ijate001900030226/">Paper</a></p>
             </li>
-          </ol>
+          </ul>
         </div>
       </section>
+
+      {{ with $honors }}
+      <section class="about-profile__panel">
+        <h2>Honors &amp; Awards</h2>
+        <ul>
+          {{ range . }}
+          <li><strong>{{ .title }}</strong><br>{{ .date }}, {{ .organization }}</li>
+          {{ end }}
+        </ul>
+      </section>
+      {{ end }}
     </div>
   </div>
 </section>

@@ -62,10 +62,30 @@ Apr. 2022 - Mar. 2026, Satomi Scholarship Foundation
 
 ## Skills
 
-- **Programming Languages:** Python, C++, C, CUDA
-- **Libraries and Frameworks:** PyTorch, OpenCV, ROS, Git/GitHub, Docker
+<div class="cv-skills-grid">
+<div>
+
+**Programming Languages:**
+- Python
+- C++
+- C
+- CUDA
+
+</div>
+<div>
+
+**Libraries and Frameworks:**
+- PyTorch
+- OpenCV
+- ROS
+- Git/GitHub
+- Docker
+
+</div>
+</div>
 
 ## Miscellaneous
 
-- Reviewer Service: IEEE Robotics and Automation Letters (IEEE RA-L)
+- **Reviewer Service:**
+  - IEEE Robotics and Automation Letters (IEEE RA-L)
 - **Application development**

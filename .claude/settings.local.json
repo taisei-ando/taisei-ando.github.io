@@ -10,7 +10,8 @@
       "Bash(git *)",
       "Bash(rm /mnt/c/Users/taab7/workspace/taisei-ando.github.io/astro.config.mjs /mnt/c/Users/taab7/workspace/taisei-ando.github.io/tailwind.config.cjs /mnt/c/Users/taab7/workspace/taisei-ando.github.io/tsconfig.json /mnt/c/Users/taab7/workspace/taisei-ando.github.io/.npmrc /mnt/c/Users/taab7/workspace/taisei-ando.github.io/package-lock.json /mnt/c/Users/taab7/workspace/taisei-ando.github.io/.nojekyll)",
       "Bash(rm -rf /mnt/c/Users/taab7/workspace/taisei-ando.github.io/src/)",
-      "Bash(rm /mnt/c/Users/taab7/workspace/taisei-ando.github.io/.vscode/launch.json)"
+      "Bash(rm /mnt/c/Users/taab7/workspace/taisei-ando.github.io/.vscode/launch.json)",
+      "Bash(xargs ls -la)"
     ]
   }
 }

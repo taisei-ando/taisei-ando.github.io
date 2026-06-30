@@ -62,10 +62,30 @@ show_date: false
 
 ## スキル
 
-- **プログラミング言語:** Python, C++, C, CUDA
-- **ライブラリ・フレームワーク:** PyTorch, OpenCV, ROS, Git/GitHub, Docker
+<div class="cv-skills-grid">
+<div>
+
+**プログラミング言語:**
+- Python
+- C++
+- C
+- CUDA
+
+</div>
+<div>
+
+**ライブラリ・フレームワーク:**
+- PyTorch
+- OpenCV
+- ROS
+- Git/GitHub
+- Docker
+
+</div>
+</div>
 
 ## その他
 
-- 査読: IEEE Robotics and Automation Letters (IEEE RA-L)
+- **査読:**
+  - IEEE Robotics and Automation Letters (IEEE RA-L)
 - **アプリケーション開発**

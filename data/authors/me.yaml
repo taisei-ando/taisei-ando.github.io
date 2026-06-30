@@ -19,6 +19,8 @@ bio: |
 affiliations:
   - name: The University of Tokyo
     url: https://www.u-tokyo.ac.jp/en/
+  - name: National Institute of Advanced Industrial Science and Technology (AIST)
+    url: https://www.aist.go.jp/index_en.html
 
 links:
   - icon: hero/envelope
@@ -33,6 +35,23 @@ interests:
   - Localization
   - Computer Vision
   - Machine Learning
+
+honors:
+  - title: Graduate School Research Encouragement Award
+    date: Feb. 2026
+    organization: Society of Automotive Engineers of Japan (JSAE)
+  - title: Excellent Presentation Award
+    date: Dec. 2025
+    organization: The 26th SICE System Integration Division Annual Conference (SI2025), The Society of Instrument and Control Engineers (SICE)
+  - title: Best Paper Award
+    date: Oct. 2024
+    organization: The 24th International Conference on Control, Automation and Systems (ICCAS 2024)
+  - title: Fellowship
+    date: Oct. 2024 - Present
+    organization: International Graduate Program of Innovation for Intelligent World, The University of Tokyo
+  - title: Scholarship
+    date: Apr. 2022 - Mar. 2026
+    organization: Satomi Scholarship Foundation
 
 education:
   - degree: Ph.D. Student
