@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:kohonda.github.io)",
+      "Bash(curl -s \"https://raw.githubusercontent.com/kohonda/kohonda.github.io/main/src/layouts/BaseLayout.astro\")",
+      "Bash(curl -s \"https://api.github.com/repos/kohonda/kohonda.github.io\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d.get\\('default_branch',''\\)\\)\")",
+      "Bash(curl *)",
+      "Bash(python3 -c ' *)",
+      "Bash(git *)",
+      "Bash(rm /mnt/c/Users/taab7/workspace/taisei-ando.github.io/astro.config.mjs /mnt/c/Users/taab7/workspace/taisei-ando.github.io/tailwind.config.cjs /mnt/c/Users/taab7/workspace/taisei-ando.github.io/tsconfig.json /mnt/c/Users/taab7/workspace/taisei-ando.github.io/.npmrc /mnt/c/Users/taab7/workspace/taisei-ando.github.io/package-lock.json /mnt/c/Users/taab7/workspace/taisei-ando.github.io/.nojekyll)",
+      "Bash(rm -rf /mnt/c/Users/taab7/workspace/taisei-ando.github.io/src/)",
+      "Bash(rm /mnt/c/Users/taab7/workspace/taisei-ando.github.io/.vscode/launch.json)"
+    ]
+  }
+}

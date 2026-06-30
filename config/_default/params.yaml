@@ -119,7 +119,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: 'Published with [Hugo Blox Builder](https://hugoblox.com/?utm_campaign=poweredby) — the free, [open source](https://github.com/HugoBlox/kit) website builder that empowers creators.'
+    notice: ''
     license:
       type: custom                      # cc | custom
       label: ""

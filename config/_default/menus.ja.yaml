@@ -1,5 +1,5 @@
 main:
-  - name: About
+  - name: Home
     url: /ja/
     weight: 10
   - name: Publication

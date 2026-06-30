@@ -153,7 +153,7 @@
     margin-bottom: 0.35rem;
   }
 
-  .compact-publications .pub-venue-line > span:first-child {
+  .compact-publications .pub-venue-line>span:first-child {
     display: block;
   }
 
@@ -278,7 +278,7 @@
   .about-profile__panel h2 {
     margin: 0 0 0.75rem;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.25;
   }
 
@@ -365,7 +365,37 @@
     padding-top: 3rem !important;
   }
 
-  body:has(.publications-page-marker) .page-body > section.hbb-section:first-of-type {
+  .nav-link {
+    color: #9ca3af !important;
+  }
+
+  html.dark .nav-link {
+    color: #6b7280 !important;
+  }
+
+  .nav-link.active {
+    color: #111827 !important;
+    text-decoration: underline !important;
+    text-underline-offset: 3px !important;
+  }
+
+  html.dark .nav-link.active {
+    color: #f9fafb !important;
+    text-decoration: underline !important;
+    text-underline-offset: 3px !important;
+  }
+
+  body:has(.publications-page-marker) .text-3xl.font-bold {
+    font-size: 1.6rem !important;
+    font-weight: 500 !important;
+    text-align: left !important;
+    max-width: 780px !important;
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  body:has(.publications-page-marker) .page-body>section.hbb-section:first-of-type {
     padding-top: 0 !important;
   }
 
@@ -380,7 +410,7 @@
     display: none !important;
   }
 
-  body:has(.cv-page-marker) main > h1 + div {
+  body:has(.cv-page-marker) main>h1+div {
     display: none !important;
   }
 
@@ -411,10 +441,10 @@
   }
 
   body:has(.cv-page-marker) .prose h2 {
-    font-size: 1.875rem !important;
-    font-weight: 700 !important;
+    font-size: 1.6rem !important;
+    font-weight: 500 !important;
     line-height: 1.2 !important;
-    text-align: center !important;
+    text-align: left !important;
     margin-top: 2.5rem !important;
     margin-bottom: 1.5rem !important;
   }

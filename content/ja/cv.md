@@ -55,17 +55,17 @@ show_date: false
 2024年10月, The 24th International Conference on Control, Automation and Systems (ICCAS 2024)
 
 **フェローシップ**  
-2024年10月 - 現在, 東京大学 国際卓越大学院教育プログラム Intelligent World のためのイノベーション
+2024年10月 - 現在, 東京大学大学院 知能社会国際卓越大学院プログラム 卓越リサーチアシスタント
 
 **奨学金**  
 2022年4月 - 2026年3月, 公益財団法人 里見奨学会
 
 ## スキル
 
-**プログラミング言語:** Python, C++, C, CUDA  
-**ライブラリ・フレームワーク:** PyTorch, OpenCV, ROS, Git/GitHub, Docker
+- **プログラミング言語:** Python, C++, C, CUDA
+- **ライブラリ・フレームワーク:** PyTorch, OpenCV, ROS, Git/GitHub, Docker
 
 ## その他
 
 - 査読: IEEE Robotics and Automation Letters (IEEE RA-L)
-- アプリケーション開発
+- **アプリケーション開発**
