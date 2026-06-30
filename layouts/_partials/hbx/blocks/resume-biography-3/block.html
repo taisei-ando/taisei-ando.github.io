@@ -100,7 +100,7 @@
         <h2>{{ $honors_heading }}</h2>
         <ul class="about-profile__honors">
           {{ range . }}
-          <li><strong>{{ .title }}</strong><br>{{ .date }}, {{ .organization }}</li>
+          <li><strong>{{ .title }}</strong><br><span class="honors-meta">{{ .date }}, {{ .organization }}</span></li>
           {{ end }}
         </ul>
       </section>

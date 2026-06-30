@@ -303,6 +303,12 @@
     font-weight: 500;
   }
 
+  .honors-meta {
+    font-size: 0.88rem;
+    line-height: 1.55;
+    font-weight: 400;
+  }
+
   .about-profile__aff-role {
     font-weight: 600;
   }
@@ -433,6 +439,10 @@
 
   body:has(.publications-page-marker) .page-body>section.hbb-section:first-of-type {
     padding-top: 0 !important;
+  }
+
+  body:has(.publications-page-marker) .page-body>section.hbb-section + section.hbb-section {
+    padding-top: 0.5rem !important;
   }
 
   body:has(.cv-page-marker) .article-metadata,
