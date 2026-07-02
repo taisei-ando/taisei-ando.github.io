@@ -14,7 +14,7 @@ status:
   icon: ""
 role: Ph.D. Student in Robotics
 bio: |
-  I am a Ph.D. student at the University of Tokyo, conducting research in robotics. My research interests include camera-based localization, visual odometry, and SLAM, with a particular focus on robust localization methods using 360-degree cameras and deep learning. I aim to develop visual perception technologies that enable robots to reliably understand their surroundings and navigate autonomously in real-world environments.
+  I am a Ph.D. student at the University of Tokyo, working on visual environment understanding with a focus on camera-based localization. My research aims to develop visual perception systems that enable robots to reliably understand their surroundings and navigate autonomously in complex real-world environments.
 
 affiliations:
   - name: The University of Tokyo
@@ -35,6 +35,7 @@ links:
 interests:
   - Robotics
   - Localization
+  - Spatial AI
   - Computer Vision
   - Machine Learning
 

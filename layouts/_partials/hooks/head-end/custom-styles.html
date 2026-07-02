@@ -52,6 +52,18 @@
     }
   }
 
+  /* Remove accidental top-margin on theme toggle so it stays vertically centered. */
+  header .theme-toggle {
+    margin-top: 0 !important;
+    display: flex;
+    align-items: center;
+  }
+
+  /* Nudge language label down to align with the globe icon. */
+  header [data-hb-language-chooser] .flex.items-center span {
+    margin-top: 2px;
+  }
+
   html.dark,
   html.dark body,
   html.dark main {
@@ -166,14 +178,14 @@
 
   .compact-publications .pub-badges span {
     display: inline-flex;
-    align-items: center;
+    align-items: flex-end;
     border-radius: 9999px;
-    background: rgba(55, 65, 81, 0.9);
-    color: #ffffff;
-    font-size: 0.72rem;
-    font-weight: 700;
+    background: #e5e7eb;
+    color: #374151;
+    font-size: 0.68rem;
+    font-weight: 400;
     line-height: 1;
-    padding: 0.22rem 0.45rem;
+    padding: 0.28rem 0.45rem 0.14rem;
   }
 
   .compact-publications .pub-paper {
@@ -185,6 +197,7 @@
   .compact-publications .pub-paper a {
     font-weight: 600;
     text-decoration: underline;
+    color: #2563eb;
   }
 
   @media (max-width: 767px) {
@@ -370,6 +383,7 @@
   .about-profile__papers .paper-link a {
     font-weight: 600;
     text-decoration: underline;
+    color: #2563eb;
   }
 
   html.dark .about-profile__panel,
