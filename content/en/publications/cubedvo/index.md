@@ -20,12 +20,12 @@ pdf: "https://www.robot.t.u-tokyo.ac.jp/~yamashita/paper/A/A229Final.pdf"
 
 <div class="cubedvo-page-marker"></div>
 
-**Links:** [PDF](https://www.robot.t.u-tokyo.ac.jp/~yamashita/paper/A/A229Final.pdf) / [BibTeX](/bib/cubedvo/) / [DOI](https://doi.org/10.1109/LRA.2026.3706936)
+**Links:** [PDF](https://www.robot.t.u-tokyo.ac.jp/~yamashita/paper/A/A229Final.pdf) / [BibTeX](/bib/cubedvo/)
 
 ## Abstract
 
-Abstract—This paper proposes CubeDVO, a learning-based visual odometry system specifically designed for a monocular 360-degree camera. While recent methods apply spherical convolutions to equirectangular images, their core operations still rely on the distorted 2D domain, which inherently degrades tracking accuracy. To address this limitation, our method introduces a unified cubemap-spherical representation that decouples the pose estimation pipeline from the equirectangular image space. We extract features on cubemap planes to reduce projection-induced distortion while enabling standard 2D convolutions, and perform geometric optimization on the unit sphere for consistent pose estimation. Our architecture incorporates a geometry-aware flow estimation network and a differentiable spherical bundle adjustment module. CubeDVO is evaluated against state-of-the-art spherical and conventional perspective visual odometry methods. Experimental results demonstrate that our method achieves robust performance under aggressive motion while maintaining high accuracy and practical computational efficiency.
+This paper proposes CubeDVO, a learning-based visual odometry system specifically designed for a monocular 360-degree camera. While recent methods apply spherical convolutions to equirectangular images, their core operations still rely on the distorted 2D domain, which inherently degrades tracking accuracy. To address this limitation, our method introduces a unified cubemap-spherical representation that decouples the pose estimation pipeline from the equirectangular image space. We extract features on cubemap planes to reduce projection-induced distortion while enabling standard 2D convolutions, and perform geometric optimization on the unit sphere for consistent pose estimation. Our architecture incorporates a geometry-aware flow estimation network and a differentiable spherical bundle adjustment module. CubeDVO is evaluated against state-of-the-art spherical and conventional perspective visual odometry methods. Experimental results demonstrate that our method achieves robust performance under aggressive motion while maintaining high accuracy and practical computational efficiency.
 
-## Index Terms
+## Keywords
 
-Index Terms—visual odometry, omnidirectional vision, spherical geometry, deep learning
+visual odometry, omnidirectional vision, spherical geometry, deep learning
