@@ -155,6 +155,16 @@
     margin-bottom: 0.45rem;
   }
 
+  .compact-publications .pub-title a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .compact-publications .pub-title a:hover,
+  .compact-publications .pub-title a:focus {
+    text-decoration: underline;
+  }
+
   .compact-publications .pub-title strong {
     font-size: 0.95rem;
     line-height: 1.4;
@@ -380,6 +390,16 @@
     line-height: 1.4;
   }
 
+  .about-profile__papers .paper-title a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .about-profile__papers .paper-title a:hover,
+  .about-profile__papers .paper-title a:focus {
+    text-decoration: underline;
+  }
+
   .about-profile__papers .paper-link a {
     font-weight: 600;
     text-decoration: underline;
@@ -457,6 +477,55 @@
 
   body:has(.publications-page-marker) .page-body>section.hbb-section + section.hbb-section {
     padding-top: 0.5rem !important;
+  }
+
+  .cubedvo-page-marker {
+    display: none;
+  }
+
+  body:has(.cubedvo-page-marker) article main {
+    max-width: 780px !important;
+    padding-top: 1.25rem !important;
+  }
+
+  body:has(.cubedvo-page-marker) article h1 {
+    font-size: 1.55rem !important;
+    line-height: 1.3 !important;
+    font-weight: 650 !important;
+    letter-spacing: 0 !important;
+  }
+
+  body:has(.cubedvo-page-marker) article h1 + div {
+    margin-top: 0.8rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  body:has(.cubedvo-page-marker) article .max-w-prose.grid {
+    margin-top: 1rem !important;
+    margin-bottom: 1.25rem !important;
+  }
+
+  body:has(.cubedvo-page-marker) article .max-w-prose.grid > div:first-child {
+    font-size: 1rem !important;
+    line-height: 1.35 !important;
+  }
+
+  body:has(.cubedvo-page-marker) article .prose,
+  body:has(.cubedvo-page-marker) article .lg\:prose-xl {
+    font-size: 0.92rem !important;
+    line-height: 1.65 !important;
+  }
+
+  body:has(.cubedvo-page-marker) article .prose h2 {
+    font-size: 1.05rem !important;
+    line-height: 1.35 !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 0.55rem !important;
+  }
+
+  body:has(.cubedvo-page-marker) article .prose p {
+    margin-top: 0 !important;
+    margin-bottom: 0.8rem !important;
   }
 
   body:has(.cv-page-marker) .article-metadata,
