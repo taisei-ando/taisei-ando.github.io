@@ -28,7 +28,7 @@ pdf: "https://www.robot.t.u-tokyo.ac.jp/~yamashita/paper/A/A229Final.pdf"
 
 <div class="cubedvo-page-marker"></div>
 
-**Links:** [PDF](https://www.robot.t.u-tokyo.ac.jp/~yamashita/paper/A/A229Final.pdf) / [BibTeX](/bib/cubedvo/)
+**Links:** [PDF](https://www.robot.t.u-tokyo.ac.jp/~yamashita/paper/A/A229Final.pdf) / [BibTeX](/bib/cubedvo/) / [DOI](https://doi.org/10.1109/LRA.2026.3706936)
 
 ## Abstract
 

@@ -617,6 +617,21 @@
     margin-bottom: 0.8rem !important;
   }
 
+  .paper-page__content a {
+    color: #2563eb !important;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  html.dark .paper-page__content a {
+    color: #60a5fa !important;
+  }
+
+  .paper-page__content h2#abstract+p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
   @media (max-width: 767px) {
     .paper-page__publication {
       grid-template-columns: 1fr;
