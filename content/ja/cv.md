@@ -10,27 +10,29 @@ show_date: false
 
 ## 基本情報
 
-**氏名:** 安藤 大生  
-**所属:** 東京大学大学院 博士課程学生  
-**Email:** ando [at] robot.t.u-tokyo.ac.jp
+<ul class="cv-basics-list">
+  <li><strong>氏名:</strong> 安藤 大生</li>
+  <li><strong>所属:</strong> 東京大学大学院 博士課程学生</li>
+  <li><strong>Email:</strong> ando [at] robot.t.u-tokyo.ac.jp</li>
+</ul>
 
 ## 学歴
 
 <div class="cv-timeline">
   <div class="cv-timeline-item">
-    <p class="cv-timeline-title">博士課程, 東京大学大学院</p>
+    <p class="cv-timeline-title"><span class="cv-timeline-main">博士課程, 東京大学大学院</span><span class="cv-timeline-detail">新領域創成科学研究科 人間環境学専攻</span></p>
     <p class="cv-timeline-date">2026年4月 - 現在</p>
-    <p>新領域創成科学研究科 人間環境学専攻<br>指導教員: 山下 淳 教授</p>
+    <p>指導教員: 山下 淳 教授</p>
   </div>
   <div class="cv-timeline-item">
-    <p class="cv-timeline-title">修士課程, 東京大学大学院</p>
+    <p class="cv-timeline-title"><span class="cv-timeline-main">修士課程, 東京大学大学院</span><span class="cv-timeline-detail">新領域創成科学研究科 人間環境学専攻</span></p>
     <p class="cv-timeline-date">2024年4月 - 2026年3月</p>
-    <p>新領域創成科学研究科 人間環境学専攻<br>指導教員: 山下 淳 教授</p>
+    <p>指導教員: 山下 淳 教授</p>
   </div>
   <div class="cv-timeline-item">
-    <p class="cv-timeline-title">学士課程, 東京大学</p>
+    <p class="cv-timeline-title"><span class="cv-timeline-main">学士課程, 東京大学</span><span class="cv-timeline-detail">工学部 精密工学科</span></p>
     <p class="cv-timeline-date">2020年4月 - 2024年3月</p>
-    <p>工学部 精密工学科<br>指導教員: 安 琪 准教授</p>
+    <p>指導教員: 安 琪 准教授</p>
   </div>
 </div>
 
@@ -38,20 +40,20 @@ show_date: false
 
 <div class="cv-timeline">
   <div class="cv-timeline-item">
-    <p class="cv-timeline-title">リサーチアシスタント, 産業技術総合研究所</p>
+    <p class="cv-timeline-title"><span class="cv-timeline-main">リサーチアシスタント, 産業技術総合研究所</span><span class="cv-timeline-detail">インテリジェントシステム研究部門 スマートモビリティ研究チーム</span></p>
     <p class="cv-timeline-date">2026年1月 - 現在</p>
-    <p>インテリジェントシステム研究部門 スマートモビリティ研究チーム<br>指導者: 小出 健司 主任研究員</p>
+    <p>受入研究員: 小出 健司 博士</p>
   </div>
   <div class="cv-timeline-item">
-    <p class="cv-timeline-title">データ分析インターン, D-Stats</p>
+    <p class="cv-timeline-title"><span class="cv-timeline-main">データ分析インターン, D-Stats</span></p>
     <p class="cv-timeline-date">2023年4月 - 2026年5月</p>
-    <p>大規模企業データの分析<br>担当業務: コーディング、コードレビュー、メンタリング</p>
+    <p>担当業務: コーディング、コードレビュー、メンタリング</p>
   </div>
 </div>
 
 ## 受賞・奨学金
 
-- **大学院第一種奨学金「特に優れた業績による返還免除」（半額免除）**  
+- **大学院第一種奨学金 特に優れた業績による返還免除（半額免除）**  
   2026年7月, 日本学生支援機構
 
 - **大学院研究奨励賞**  

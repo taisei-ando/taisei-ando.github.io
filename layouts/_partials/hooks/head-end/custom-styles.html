@@ -428,6 +428,22 @@
     gap: 0 2rem;
   }
 
+  body:has(.cv-page-marker) .prose .cv-basics-list {
+    margin-top: 0 !important;
+    margin-bottom: 1.75rem !important;
+    padding-left: 1.35rem !important;
+  }
+
+  body:has(.cv-page-marker) .prose .cv-basics-list li {
+    margin-top: 0 !important;
+    margin-bottom: 0.65rem !important;
+    line-height: 1.75 !important;
+  }
+
+  body:has(.cv-page-marker) .prose .cv-basics-list li:last-child {
+    margin-bottom: 0 !important;
+  }
+
   .cv-timeline {
     position: relative;
     margin: 0 0 1.5rem;
@@ -470,8 +486,22 @@
   }
 
   body:has(.cv-page-marker) .prose .cv-timeline-title {
+    color: #6b7280 !important;
+    font-weight: 400 !important;
+  }
+
+  body:has(.cv-page-marker) .prose .cv-timeline-main {
     color: #111827 !important;
     font-weight: 700 !important;
+  }
+
+  body:has(.cv-page-marker) .prose .cv-timeline-detail {
+    color: #6b7280 !important;
+    font-weight: 400 !important;
+  }
+
+  body:has(.cv-page-marker) .prose .cv-timeline-detail::before {
+    content: ", ";
   }
 
   body:has(.cv-page-marker) .prose .cv-timeline-date {
@@ -488,7 +518,15 @@
   }
 
   html.dark body:has(.cv-page-marker) .prose .cv-timeline-title {
+    color: #d1d5db !important;
+  }
+
+  html.dark body:has(.cv-page-marker) .prose .cv-timeline-main {
     color: #f9fafb !important;
+  }
+
+  html.dark body:has(.cv-page-marker) .prose .cv-timeline-detail {
+    color: #d1d5db !important;
   }
 
   html.dark body:has(.cv-page-marker) .prose .cv-timeline-date {

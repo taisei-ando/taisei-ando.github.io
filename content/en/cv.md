@@ -10,27 +10,29 @@ show_date: false
 
 ## Basics
 
-**Name:** Taisei Ando  
-**Position:** Ph.D. Student in Robotics, The University of Tokyo  
-**Email:** ando [at] robot.t.u-tokyo.ac.jp
+<ul class="cv-basics-list">
+  <li><strong>Name:</strong> Taisei Ando</li>
+  <li><strong>Affiliation:</strong> Ph.D. Student in Robotics, The University of Tokyo</li>
+  <li><strong>Email:</strong> ando [at] robot.t.u-tokyo.ac.jp</li>
+</ul>
 
 ## Education
 
 <div class="cv-timeline">
   <div class="cv-timeline-item">
-    <p class="cv-timeline-title">Ph.D. Student, The University of Tokyo</p>
+    <p class="cv-timeline-title"><span class="cv-timeline-main">Ph.D. Student, The University of Tokyo</span><span class="cv-timeline-detail">Department of Human and Engineered Environmental Studies, Graduate School of Frontier Sciences</span></p>
     <p class="cv-timeline-date">Apr. 2026 - Present</p>
-    <p>Department of Human and Engineered Environmental Studies, Graduate School of Frontier Sciences<br>Advisor: Prof. Atsushi Yamashita</p>
+    <p>Advisor: Prof. Atsushi Yamashita</p>
   </div>
   <div class="cv-timeline-item">
-    <p class="cv-timeline-title">M.S., The University of Tokyo</p>
+    <p class="cv-timeline-title"><span class="cv-timeline-main">M.S., The University of Tokyo</span><span class="cv-timeline-detail">Department of Human and Engineered Environmental Studies, Graduate School of Frontier Sciences</span></p>
     <p class="cv-timeline-date">Apr. 2024 - Mar. 2026</p>
-    <p>Department of Human and Engineered Environmental Studies, Graduate School of Frontier Sciences<br>Advisor: Prof. Atsushi Yamashita</p>
+    <p>Advisor: Prof. Atsushi Yamashita</p>
   </div>
   <div class="cv-timeline-item">
-    <p class="cv-timeline-title">B.E., The University of Tokyo</p>
+    <p class="cv-timeline-title"><span class="cv-timeline-main">B.E., The University of Tokyo</span><span class="cv-timeline-detail">Department of Precision Engineering, Faculty of Engineering</span></p>
     <p class="cv-timeline-date">Apr. 2020 - Mar. 2024</p>
-    <p>Department of Precision Engineering, Faculty of Engineering<br>Advisor: Associate Prof. Qi An</p>
+    <p>Advisor: Associate Prof. Qi An</p>
   </div>
 </div>
 
@@ -38,14 +40,14 @@ show_date: false
 
 <div class="cv-timeline">
   <div class="cv-timeline-item">
-    <p class="cv-timeline-title">Research Assistant, National Institute of Advanced Industrial Science and Technology (AIST)</p>
+    <p class="cv-timeline-title"><span class="cv-timeline-main">Research Assistant, National Institute of Advanced Industrial Science and Technology (AIST)</span><span class="cv-timeline-detail">Smart Mobility Research Team, Intelligent System Research Institute</span></p>
     <p class="cv-timeline-date">Jan. 2026 - Present</p>
-    <p>Smart Mobility Research Team, Intelligent System Research Institute<br>Advisor: Dr. Kenji Koide</p>
+    <p>Advisor: Dr. Kenji Koide</p>
   </div>
   <div class="cv-timeline-item">
-    <p class="cv-timeline-title">Data Analysis Intern, D-Stats</p>
+    <p class="cv-timeline-title"><span class="cv-timeline-main">Data Analysis Intern, D-Stats</span></p>
     <p class="cv-timeline-date">Apr. 2023 - May 2026</p>
-    <p>Analyzed large-scale company datasets<br>Responsibilities: coding, code review, and mentoring</p>
+    <p>Responsibilities: coding, code review, and mentoring</p>
   </div>
 </div>
 
