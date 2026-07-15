@@ -1,6 +1,10 @@
 ---
 title: "CubeDVO: Cubemap-Spherical Deep Visual Odometry for a Monocular 360-Degree Camera"
 date: 2026-06-01
+layout: paper
+toc: false
+reading_time: false
+show_reading_time: false
 summary: "Author accepted manuscript and bibliographic information for CubeDVO, a learning-based visual odometry method for a monocular 360-degree camera."
 authors:
   - Taisei Ando
@@ -11,6 +15,10 @@ authors:
   - Toshihiro Kitajima
   - Qi An
   - Atsushi Yamashita
+display_authors:
+  - Taisei Ando
+  - Junwoon Lee
+  - et al.
 publication: "IEEE Robotics and Automation Letters, Vol. 11, No. 8, pp. 9543-9550, 2026."
 hugoblox:
   ids:

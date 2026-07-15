@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="paper-page mx-auto max-w-[780px] px-6 pb-8 pt-4 md:px-12">
+  <main>
+    <h1 class="paper-page__title">{{ .Title }}</h1>
+
+    {{ with (.Params.display_authors | default .Params.authors) }}
+      <div class="paper-page__meta">
+        {{- range $index, $author := . -}}
+          {{- if $index }}<span>, </span>{{ end -}}
+          <span>{{ $author }}</span>
+        {{- end -}}
+      </div>
+    {{ end }}
+
+    {{ with .Params.publication }}
+      <div class="paper-page__publication">
+        <div class="paper-page__publication-label">{{ i18n "publication" }}</div>
+        <div class="paper-page__publication-text">{{ . | markdownify }}</div>
+      </div>
+    {{ end }}
+
+    <div class="paper-page__content prose prose-slate dark:prose-invert" data-pagefind-body>
+      {{ .Content }}
+    </div>
+  </main>
+</div>
+{{ end }}

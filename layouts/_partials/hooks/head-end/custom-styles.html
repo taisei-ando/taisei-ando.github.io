@@ -344,7 +344,7 @@
 
   .about-profile__interest-pill {
     display: inline-block;
-    padding: 0.25rem 0.75rem;
+    padding: 0.3rem 0.75rem 0.2rem;
     border-radius: 9999px;
     background: #f3f4f6;
     color: #374151;
@@ -428,6 +428,73 @@
     gap: 0 2rem;
   }
 
+  .cv-timeline {
+    position: relative;
+    margin: 0 0 1.5rem;
+    padding-left: 1.35rem;
+  }
+
+  .cv-timeline::before {
+    content: "";
+    position: absolute;
+    top: 0.35rem;
+    bottom: 0.35rem;
+    left: 0.23rem;
+    width: 1px;
+    background: #d1d5db;
+  }
+
+  .cv-timeline-item {
+    position: relative;
+    margin-bottom: 1.35rem;
+  }
+
+  .cv-timeline-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .cv-timeline-item::before {
+    content: "";
+    position: absolute;
+    top: 0.34rem;
+    left: -1.32rem;
+    width: 0.52rem;
+    height: 0.52rem;
+    border-radius: 9999px;
+    background: #111827;
+  }
+
+  body:has(.cv-page-marker) .prose .cv-timeline p {
+    margin-top: 0 !important;
+    margin-bottom: 0.25rem !important;
+  }
+
+  body:has(.cv-page-marker) .prose .cv-timeline-title {
+    color: #111827 !important;
+    font-weight: 700 !important;
+  }
+
+  body:has(.cv-page-marker) .prose .cv-timeline-date {
+    color: #6b7280 !important;
+    font-weight: 400 !important;
+  }
+
+  html.dark .cv-timeline::before {
+    background: rgba(229, 231, 235, 0.35);
+  }
+
+  html.dark .cv-timeline-item::before {
+    background: #f9fafb;
+  }
+
+  html.dark body:has(.cv-page-marker) .prose .cv-timeline-title {
+    color: #f9fafb !important;
+  }
+
+  html.dark body:has(.cv-page-marker) .prose .cv-timeline-date {
+    color: #d1d5db !important;
+  }
+
   .cv-page-marker {
     display: none;
   }
@@ -483,49 +550,78 @@
     display: none;
   }
 
-  body:has(.cubedvo-page-marker) article main {
-    max-width: 780px !important;
-    padding-top: 1.25rem !important;
-  }
-
-  body:has(.cubedvo-page-marker) article h1 {
+  .paper-page__title {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    color: #111827;
     font-size: 1.55rem !important;
     line-height: 1.3 !important;
     font-weight: 650 !important;
     letter-spacing: 0 !important;
   }
 
-  body:has(.cubedvo-page-marker) article h1 + div {
-    margin-top: 0.8rem !important;
-    margin-bottom: 1.5rem !important;
+  html.dark .paper-page__title {
+    color: #f9fafb;
   }
 
-  body:has(.cubedvo-page-marker) article .max-w-prose.grid {
+  .paper-page__meta {
+    margin-top: 0.8rem !important;
+    margin-bottom: 1.5rem !important;
+    color: #6b7280;
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+
+  html.dark .paper-page__meta {
+    color: #d1d5db;
+  }
+
+  .paper-page__publication {
+    display: grid;
+    grid-template-columns: 200px minmax(0, 1fr);
+    gap: 1rem;
     margin-top: 1rem !important;
     margin-bottom: 1.25rem !important;
   }
 
-  body:has(.cubedvo-page-marker) article .max-w-prose.grid > div:first-child {
-    font-size: 1rem !important;
-    line-height: 1.35 !important;
+  .paper-page__publication-label {
+    font-size: 0.9rem !important;
+    line-height: 1.45 !important;
+    font-weight: 600 !important;
   }
 
-  body:has(.cubedvo-page-marker) article .prose,
-  body:has(.cubedvo-page-marker) article .lg\:prose-xl {
+  .paper-page__publication-text {
+    font-size: 0.86rem !important;
+    line-height: 1.45 !important;
+    color: #4b5563 !important;
+  }
+
+  html.dark .paper-page__publication-text {
+    color: #d1d5db !important;
+  }
+
+  .paper-page__content {
     font-size: 0.92rem !important;
     line-height: 1.65 !important;
   }
 
-  body:has(.cubedvo-page-marker) article .prose h2 {
+  .paper-page__content h2 {
     font-size: 1.05rem !important;
     line-height: 1.35 !important;
     margin-top: 1.5rem !important;
     margin-bottom: 0.55rem !important;
   }
 
-  body:has(.cubedvo-page-marker) article .prose p {
+  .paper-page__content p {
     margin-top: 0 !important;
     margin-bottom: 0.8rem !important;
+  }
+
+  @media (max-width: 767px) {
+    .paper-page__publication {
+      grid-template-columns: 1fr;
+      gap: 0.35rem;
+    }
   }
 
   body:has(.cv-page-marker) .article-metadata,
@@ -586,6 +682,14 @@
   body:has(.cv-page-marker) .prose li {
     font-size: 0.88rem !important;
     line-height: 1.55 !important;
+  }
+
+  body:has(.cv-page-marker) .prose li::marker {
+    color: #111827 !important;
+  }
+
+  html.dark body:has(.cv-page-marker) .prose li::marker {
+    color: #f9fafb !important;
   }
 
   body:has(.cv-page-marker) main {

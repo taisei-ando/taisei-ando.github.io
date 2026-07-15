@@ -16,56 +16,65 @@ show_date: false
 
 ## 学歴
 
-**2026年4月 - 現在**  
-**博士課程**, 東京大学大学院  
-新領域創成科学研究科 人間環境学専攻  
-指導教員: 山下 淳 教授
-
-**2024年4月 - 2026年3月**  
-**修士課程**, 東京大学大学院  
-新領域創成科学研究科 人間環境学専攻  
-指導教員: 山下 淳 教授
-
-**2020年4月 - 2024年3月**  
-**学士課程**, 東京大学  
-工学部 精密工学科  
-指導教員: 安 琪 准教授
+<div class="cv-timeline">
+  <div class="cv-timeline-item">
+    <p class="cv-timeline-title">博士課程, 東京大学大学院</p>
+    <p class="cv-timeline-date">2026年4月 - 現在</p>
+    <p>新領域創成科学研究科 人間環境学専攻<br>指導教員: 山下 淳 教授</p>
+  </div>
+  <div class="cv-timeline-item">
+    <p class="cv-timeline-title">修士課程, 東京大学大学院</p>
+    <p class="cv-timeline-date">2024年4月 - 2026年3月</p>
+    <p>新領域創成科学研究科 人間環境学専攻<br>指導教員: 山下 淳 教授</p>
+  </div>
+  <div class="cv-timeline-item">
+    <p class="cv-timeline-title">学士課程, 東京大学</p>
+    <p class="cv-timeline-date">2020年4月 - 2024年3月</p>
+    <p>工学部 精密工学科<br>指導教員: 安 琪 准教授</p>
+  </div>
+</div>
 
 ## 職歴
 
-**2026年1月 - 現在**  
-**リサーチアシスタント**, 産業技術総合研究所  
-インテリジェントシステム研究部門 スマートモビリティ研究チーム  
-指導者: 小出 健司 主任研究員
-
-**2023年4月 - 2026年5月**  
-**データ分析インターン**, D-Stats  
-大規模企業データの分析  
-担当業務: コーディング、コードレビュー、メンタリング
+<div class="cv-timeline">
+  <div class="cv-timeline-item">
+    <p class="cv-timeline-title">リサーチアシスタント, 産業技術総合研究所</p>
+    <p class="cv-timeline-date">2026年1月 - 現在</p>
+    <p>インテリジェントシステム研究部門 スマートモビリティ研究チーム<br>指導者: 小出 健司 主任研究員</p>
+  </div>
+  <div class="cv-timeline-item">
+    <p class="cv-timeline-title">データ分析インターン, D-Stats</p>
+    <p class="cv-timeline-date">2023年4月 - 2026年5月</p>
+    <p>大規模企業データの分析<br>担当業務: コーディング、コードレビュー、メンタリング</p>
+  </div>
+</div>
 
 ## 受賞・奨学金
 
-**大学院研究奨励賞**  
-2026年2月, 公益社団法人 自動車技術会
+- **大学院第一種奨学金「特に優れた業績による返還免除」（半額免除）**  
+  2026年7月, 日本学生支援機構
 
-**優秀講演賞**  
-2025年12月, 第26回計測自動制御学会システムインテグレーション部門講演会
+- **大学院研究奨励賞**  
+  2026年2月, 公益社団法人 自動車技術会
 
-**Best Paper Award**  
-2024年10月, The 24th International Conference on Control, Automation and Systems (ICCAS 2024)
+- **優秀講演賞**  
+  2025年12月, 第26回計測自動制御学会システムインテグレーション部門講演会
 
-**フェローシップ**  
-2024年10月 - 現在, 東京大学大学院 知能社会国際卓越大学院プログラム 卓越リサーチアシスタント
+- **Best Paper Award**  
+  2024年10月, The 24th International Conference on Control, Automation and Systems (ICCAS 2024)
 
-**奨学金**  
-2022年4月 - 2026年3月, 公益財団法人 里見奨学会
+- **フェローシップ**  
+  2024年10月 - 現在, 東京大学大学院 知能社会国際卓越大学院プログラム 卓越リサーチアシスタント
+
+- **奨学金**  
+  2022年4月 - 2026年3月, 公益財団法人 里見奨学会
 
 ## スキル
 
 <div class="cv-skills-grid">
 <div>
 
-**プログラミング言語:**
+**プログラミング言語**
 - Python
 - C++
 - C
@@ -74,7 +83,7 @@ show_date: false
 </div>
 <div>
 
-**ライブラリ・フレームワーク:**
+**ライブラリ・フレームワーク**
 - PyTorch
 - OpenCV
 - ROS
@@ -86,7 +95,7 @@ show_date: false
 
 ## その他
 
-- **査読:**
+- **査読**
   - IEEE Robotics and Automation Letters (IEEE RA-L)
 - **アプリケーション開発**
   - [情報 快速ドリル - 共通テスト対策](https://apps.apple.com/jp/app/情報-快速ドリル-共通テスト対策/id6769704197)（App Store）

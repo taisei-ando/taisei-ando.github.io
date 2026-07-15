@@ -1,0 +1,9 @@
+{{/* TA favicon fallbacks for browsers and crawlers that do not use SVG favicons. */}}
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+{{ with resources.Get "media/icon.png" }}
+  {{ $favicon := .Fill "32x32 Center" }}
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ $favicon.RelPermalink }}">
+  {{ $appleTouchIcon := .Fill "180x180 Center" }}
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ $appleTouchIcon.RelPermalink }}">
+{{ end }}
