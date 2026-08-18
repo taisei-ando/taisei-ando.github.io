@@ -5,13 +5,13 @@
 
 main:
   - name: Home
-    url: /
+    url: /en/
     weight: 10
   - name: Publication
-    url: /publications/
+    url: /en/publications/
     weight: 20
   - name: CV
-    url: /cv/
+    url: /en/cv/
     weight: 30
   # - name: Courses
   #   url: courses/

@@ -14,7 +14,7 @@
 {{ $affiliations_heading := index $headings "affiliations" | default "Affiliations" }}
 {{ $selected_papers_heading := index $headings "selected_papers" | default "Selected Papers" }}
 {{ $honors_heading := index $headings "honors" | default "Honors" }}
-{{ $avatar := resources.Get "media/authors/me.jpg" }}
+{{ $avatar := resources.Get (printf "media/authors/%s" (index $profile "avatar")) }}
 
 <section class="about-profile">
   <div class="about-profile__inner">
@@ -80,16 +80,16 @@
         <div class="about-profile__papers">
           <ul style="list-style: none; padding-left: 0;">
             <li>
-              <p class="paper-title"><a href="/publications/cubedvo/">CubeDVO: Cubemap-Spherical Deep Visual Odometry for a Monocular 360-Degree Camera</a></p>
+              <p class="paper-title"><a href="https://doi.org/10.1109/LRA.2026.3706936" target="_blank" rel="noopener">CubeDVO: Cubemap-Spherical Deep Visual Odometry for a Monocular 360-Degree Camera</a></p>
               <p>Taisei Ando, Junwoon Lee, Takuya Igaue, Kohtaro Nakamura, Mitsuru Shinozaki, Toshihiro Kitajima, Qi An, and Atsushi Yamashita</p>
               <p>IEEE Robotics and Automation Letters, Vol. 11, No. 8, pp. 9543-9550, 2026.</p>
-              <p class="paper-link"><a href="https://www.robot.t.u-tokyo.ac.jp/~yamashita/paper/A/A229Final.pdf" target="_blank" rel="noopener">PDF</a> / <a href="/bib/cubedvo/">Bib</a> / <a href="https://doi.org/10.1109/LRA.2026.3706936" target="_blank" rel="noopener">DOI</a></p>
+              <p class="paper-link"><a href="/en/bib/cubedvo/">Bib</a> / <a href="https://doi.org/10.1109/LRA.2026.3706936" target="_blank" rel="noopener">DOI</a></p>
             </li>
             <li>
               <p class="paper-title"><a href="https://www.fujipress.jp/ijat/au/ijate001900030226/" target="_blank" rel="noopener">Efficient Distortion Mitigation in Equirectangular Images for Two-View Pose Estimation</a></p>
               <p>Taisei Ando, Junwoon Lee, Mitsuru Shinozaki, Toshihiro Kitajima, Qi An, and Atsushi Yamashita</p>
               <p>International Journal of Automation Technology, Vol. 19, No. 3, pp. 226-236, May 2025.</p>
-              <p class="paper-link"><a href="/bib/equirectangular-2025/">Bib</a> / <a href="https://www.fujipress.jp/ijat/au/ijate001900030226/" target="_blank" rel="noopener">DOI</a></p>
+              <p class="paper-link"><a href="/en/bib/equirectangular-2025/">Bib</a> / <a href="https://www.fujipress.jp/ijat/au/ijate001900030226/" target="_blank" rel="noopener">DOI</a></p>
             </li>
           </ul>
         </div>

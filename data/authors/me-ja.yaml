@@ -1,8 +1,8 @@
 schema: hugoblox/author/v1
 slug: me-ja
 is_owner: true
-avatar: me.jpg
-image: me.jpg
+avatar: me2.png
+image: me2.png
 name:
   display: 安藤 大生
   given: 大生
@@ -14,7 +14,7 @@ status:
   icon: ""
 role: 博士課程学生
 bio: |
-  東京大学大学院の博士課程で、カメラ画像を用いた自己位置推定を中心として、視覚を通じた環境理解に取り組んでいます。複雑な実環境でもロボットが周囲を安定して理解し、自律的に移動できるような視覚認識システムの実現を目指しています。
+  カメラ画像を用いた自己位置推定を中心として、視覚を通じた環境理解に取り組んでいます。複雑な実環境でもロボットが周囲を安定して理解し、自律的に移動できるような視覚認識システムの実現を目指しています。
 
 affiliations:
   - name: 東京大学大学院

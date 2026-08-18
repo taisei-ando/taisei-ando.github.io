@@ -13,7 +13,7 @@
 - Node.js `22`
 - pnpm `10`
 - Go `1.21+` (Hugo Modules 用)
-- Netlify build configuration
+- GitHub Actions / GitHub Pages
 
 ## Local Development
 
@@ -48,7 +48,7 @@ content/ja/              日本語コンテンツ
 data/authors/            プロフィール情報
 assets/media/            プロフィール画像やアイコン
 layouts/                 テーマ上書き用のカスタムレイアウト
-netlify.toml             Netlify のビルド設定
+.github/workflows/       CI・GitHub Pages のデプロイ設定
 ```
 
 ## Where To Edit
@@ -72,13 +72,13 @@ netlify.toml             Netlify のビルド設定
 - 日英 2 言語構成
 - プロフィール情報の独自更新
 - `layouts/` 配下でのブロック/パーシャル上書き
-- Netlify 用ビルド設定
+- GitHub Pages 用ビルド設定
 
 テンプレート更新時は、`layouts/` と `hugo-blox/` 配下の差分影響を先に確認した方が安全です。
 
 ## Deployment
 
-Netlify でのビルド設定は [`netlify.toml`](/mnt/c/Users/taab7/workspace/taisei-ando.github.io/netlify.toml) にあります。公開 URL の既定値は [`config/_default/hugo.yaml`](/mnt/c/Users/taab7/workspace/taisei-ando.github.io/config/_default/hugo.yaml) で `https://taisei-ando.github.io/` に設定しています。
+`main` ブランチへの push で、[`deploy.yml`](/mnt/c/Users/taab7/workspace/taisei-ando.github.io/.github/workflows/deploy.yml) がビルドと GitHub Pages へのデプロイを行います。Pull Request ではビルド確認だけを実行します。公開 URL は [`config/_default/hugo.yaml`](/mnt/c/Users/taab7/workspace/taisei-ando.github.io/config/_default/hugo.yaml) で `https://taisei-ando.github.io/` に設定しています。
 
 ## License
 

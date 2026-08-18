@@ -1,10 +1,10 @@
 main:
   - name: Home
-    url: /ja/
+    url: /
     weight: 10
   - name: Publication
-    url: /ja/publications/
+    url: /publications/
     weight: 20
   - name: CV
-    url: /ja/cv/
+    url: /cv/
     weight: 30

@@ -1,8 +1,8 @@
 schema: hugoblox/author/v1
 slug: me
 is_owner: true
-avatar: me.jpg
-image: me.jpg
+avatar: me2.png
+image: me2.png
 name:
   display: Taisei Ando
   given: Taisei

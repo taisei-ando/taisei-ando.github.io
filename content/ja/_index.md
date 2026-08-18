@@ -3,6 +3,8 @@ title: ''
 summary: '安藤大生（Taisei Ando）は、東京大学大学院の博士課程学生として、カメラ画像を用いた自己位置推定と視覚を通じた環境理解に取り組んでいます。'
 date: 2022-10-24
 type: landing
+seo:
+  title: '安藤 大生 | 東京大学・ロボティクス'
 
 design:
   spacing: '2rem'
