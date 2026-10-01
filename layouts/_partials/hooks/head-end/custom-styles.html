@@ -156,8 +156,12 @@
   }
 
   .compact-publications .pub-title a {
-    color: inherit;
+    color: #111827;
     text-decoration: none;
+  }
+
+  html.dark .compact-publications .pub-title a {
+    color: #f9fafb;
   }
 
   .compact-publications .pub-title a:hover,
@@ -168,6 +172,14 @@
   .compact-publications .pub-title strong {
     font-size: 0.95rem;
     line-height: 1.4;
+  }
+
+  .compact-publications p:not(.pub-title) strong {
+    color: #374151;
+  }
+
+  html.dark .compact-publications p:not(.pub-title) strong {
+    color: #d1d5db;
   }
 
   .compact-publications .pub-venue-line {
