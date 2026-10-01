@@ -53,6 +53,9 @@ show_date: false
 
 ## Honors
 
+- **Selected as a JSPS Research Fellow (DC2)**<br>
+  Starting Apr. 2027, Japan Society for the Promotion of Science (JSPS)
+
 - **Partial Repayment Exemption for Outstanding Achievement, Type 1 Graduate Scholarship**  
   Jul. 2026, Japan Student Services Organization (JASSO)
 

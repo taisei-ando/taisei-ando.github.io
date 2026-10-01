@@ -1,4 +1,5 @@
 en:
+  languageName: EN
   languageCode: en-us
   contentDir: content/en
   params:
@@ -8,10 +9,10 @@ en:
         description: "Academic homepage of Taisei Ando, Ph.D. student in Robotics at The University of Tokyo."
 
 ja:
+  languageName: JA
   languageCode: ja-jp
   contentDir: content/ja
   params:
     hugoblox:
       identity:
         name: "Taisei Ando"
-        description: "安藤 大生（Taisei Ando）の研究者ホームページ。東京大学大学院でロボティクス、自己位置推定、コンピュータビジョンを研究しています。"
